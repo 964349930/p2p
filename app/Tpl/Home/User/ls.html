@@ -7,17 +7,18 @@
 </div>
 
 <div>
-	<a href="" class="btn"><span>新闻管理模块</span></a>
+	<a href="" class="btn"><span>用户管理模块</span></a>
 </div>
 
 <div class="list">
-      <form action="{:U('Home/New/del')}" method="post" class="del-form">
+      <form action="{:U('Home/User/del')}" method="post" class="del-form">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">新闻后台管理</th>
-            <th width="20%">新闻展示</th>
+            <th width="20%">分组管理</th>
+            <th width="20%">用户注册登陆</th>
+            <th width="20%">用户中心</th>
           </tr>
         </thead>
         <tbody>
@@ -34,8 +35,8 @@
                 <td>{$vo.sort}</td>
                 <td>{$vo.time_modify|date="Y-m-d H:i", ###}</td>
                 <td>
-                    <a href="{:U('Home/New/info',array('id'=>$vo[id]))}" class="mr10">编辑</a>
-                    <a href="{:U('Home/New/del',array('id'=>$vo[id]))}">删除</a>
+                    <a href="{:U('Home/User/info',array('id'=>$vo[id]))}" class="mr10">编辑</a>
+                    <a href="{:U('Home/User/del',array('id'=>$vo[id]))}">删除</a>
                 </td>
               </tr>
             </volist>
