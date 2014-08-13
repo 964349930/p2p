@@ -15,8 +15,8 @@ return array(
 	
 	'APP_AUTOLOAD_PATH'=>'@.TagLib',
 
-	'APP_GROUP_LIST'=>'Home, Mobile',
-	'DEFAULT_GROUP'=>'Home',
+	'APP_GROUP_LIST'=>'Home, Admin',
+	'DEFAULT_GROUP'=>'Admin',
 	'SHOW_PAGE_TRACE'=>false,
 
 );
