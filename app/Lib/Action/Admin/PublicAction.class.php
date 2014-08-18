@@ -50,7 +50,7 @@ class PublicAction extends BaseAction
         $update = array(
             'last_time' => $_SESSION['current_time'],
             'last_ip' => $_SESSION['current_ip'],
-        );
+        );  
         D('User')->where('id='.$_SESSION['uid'])->save($update);
         unset($_SESSION);
         session_destroy();

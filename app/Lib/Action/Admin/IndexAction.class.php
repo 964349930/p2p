@@ -7,7 +7,7 @@
 
  */
 
-    class IndexAction extends AdminAction {
+    class IndexAction extends AdminAction{
 
 
     //框架页

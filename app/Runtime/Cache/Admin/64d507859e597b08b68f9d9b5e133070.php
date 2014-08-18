@@ -59,7 +59,7 @@ img {border: 0px;}
 <div class="wrap_login">
   <div class="la fl">
     <div class="box_login">
-      <form id="login_form" name="login_form" action="<?php echo U('Home/Public/doLogin');?>" method="post" class="nf lf" >
+      <form id="login_form" name="login_form" action="<?php echo U('Admin/Public/doLogin');?>" method="post" class="nf lf" >
         <dl>
           <dd>
             <label>帐　号：</label>

@@ -4,7 +4,7 @@
  * @author chen
  * @version 2014-03-11
  */
-class HomeAction extends BaseAction
+class AdminAction extends BaseAction
 {
     public $breadcrumbs;
     /**
