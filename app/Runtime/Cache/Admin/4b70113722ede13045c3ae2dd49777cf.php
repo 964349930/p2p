@@ -14,7 +14,7 @@
                         <div class="logo"></div>
                         <div class="nav_sub">您好,<?php echo ($_SESSION['userInfo']['name']); ?>&nbsp; |
                             <a href="javascript:void(0);" onClick="refresh();">刷新</a> |
-                            <a href="<?php echo U('Home/Public/logout');?>">退出</a><br/>
+                            <a href="<?php echo U('Admin/Public/logout');?>">退出</a><br/>
                             <div id="TopTime"></div>
                         </div>
                         <div class="main_nav">
