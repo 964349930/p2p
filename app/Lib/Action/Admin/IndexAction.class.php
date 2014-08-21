@@ -87,7 +87,7 @@
                 '新闻管理模块' => U('Admin/New/info'),
             ),
             '用户管理模块' => array(
-                '分组管理'=>U('Admin/User/ls'),
+                '分组管理'=>U('Admin/Users/ls'),
                 )
         );
 

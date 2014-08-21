@@ -20,24 +20,34 @@ class NewAction extends AdminAction
         $this->display();
 	}
 	public function info(){
-		$tplObj = D('Tpl');
+		 $obj = D('New');
         if(empty($_POST)){
             $id = $this->_get('id');
             if(!empty($id)){
-                $info = $tplObj->where('id='.$id)->find();
+                $info = $obj->where('id='.$id)->find();
+                $pid = $info['pid'];
                 $this->assign('info', $info);
+            }else{
+                $pid = $this->_get('pid');
             }
+            $this->assign('newList', $this->get_tpl_list());
+            $this->assign('pid', $pid);
             $this->display();
             exit;
         }
         $data = $this->_post();
+        if(!empty($_FILES['pic']['name'])){
+            $picList = uploadPic();
+            if($picList['code'] != 'error'){
+                $data['cover'] = $picList['pic']['savename'];
+            }
+        }
         $data['time_modify'] = time();
-        $id = $this->_post('id');
-        if(empty($id)){
+        if(empty($data['id'])){
+            $obj->add($data);
             $data['time_add'] = time();
-            $tplObj->add($data);
         }else{
-            $tplObj->save($data);
+            $obj->save($data);
         }
         $this->success('操作成功');
 	}
