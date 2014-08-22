@@ -27,73 +27,32 @@
 <body>
 <div class="content">
 
-  <div class="tabs">
+<div class="tabs">
     <ul>
-      <li class="current"><a href="javascript:void" class="btn"><span>修改密码</span></a></li>
+        <li class="current"><a href="javascript:void(0)" class="current"></a></li>
     </ul>
-  </div>
-
-  <div class="edit">
-
-    <form method="post" action="<?php echo U('Admin/Setting/pwd');?>" enctype="multipart/form-data">
-    
-    <input type="hidden" name="uid"  value="$gl_user['uid']">
-    <input type="hidden" name="id" value="<?php echo ($pwd["id"]); ?>" />
-   
-    <dl>
-
-      <dt>旧密码：</dt>
-
-      <dd>
-
-        <input type="password" name="oldpass" class="w300" />
-
-      </dd>
-
-    </dl>
-
-    <dl>
-
-      <dt>新密码：</dt>
-
-      <dd>
-
-        <input type="password" name="newpass" class="w300"/>
-
-      </dd>
-
-    </dl>
-
-    <dl>
-
-      <dt>重复新密码：</dt>
-
-      <dd>
-
-        <input type="password" name="repass" class="w300"/>
-
-      </dd>
-
-    </dl>
-
-    <dl>
-
-      <dt>&nbsp;</dt>
-
-      <dd><input type="submit"  value="提 交" class="btn_b"/></dd>
-
-    </dl>
-
-    </form>
-
-  </div>
-
-  
-
 </div>
-
-
-
+<div class="edit">
+    <form method="post" action="<?php echo U('Admin/Users/info');?>" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="<?php echo ($info["id"]); ?>" />
+        <dl>
+        	<dt>分组管理</dt>
+            <select><option value="<?php echo ($info["list"]); ?>"class="w200"/>管理员</option><option>商家</option><option>顾客</option></select>
+        </dl>
+        <dl>
+            <dt>用户ID </dt>
+            <dd><input type="text"></dd>
+        </dl>
+        <dl>
+        	<dt>用户名称</dt>
+        	<dd><input type="text"></dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><input type="submit" value="更 新" class="btn submit-btn" /></dd>
+        </dl>
+    </form>
+</div>
 </div>
 </body>
 </html>

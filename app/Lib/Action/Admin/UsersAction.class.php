@@ -9,7 +9,7 @@ class UsersAction extends AdminAction
      */
     public function ls()
     {
-        $tplList = D('Users')->select();
+        $tplList = D('User_gruop')->select();
         $this->assign('list', $tplList);
         $this->display();
     }
@@ -19,7 +19,7 @@ class UsersAction extends AdminAction
      */
     public function info()
     {
-        $tplObj = D('Users');
+        $tplObj = D('User_gruop');
         if(empty($_POST)){
             $id = $this->_get('id');
             if(!empty($id)){
@@ -55,7 +55,7 @@ class UsersAction extends AdminAction
             $this ->error('请确定你要删除的数据');
         }
         $arrMap['id'] = array('in',$delIds);
-        if (D('Users') -> where($arrMap) ->delete()) {
+        if (D('User_gruop') -> where($arrMap) ->delete()) {
             $this ->success('删除成功');
         }else{
             //print_r(D('Tpl')->getLastSQL());exit;

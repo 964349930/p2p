@@ -34,9 +34,9 @@
 	</ul>
 </div>
 
-<div>
-	<a href="javascript:void(0)" class="btn"><span>添加</span></a>
-</div>
+<div class="toolbar">
+   <a href="<?php echo U('Admin/Users/info');?>" class="btn"><span>添加</span></a>
+  </div>
 
 <div class="list">
       <form action="<?php echo U('Admin/Users/del');?>" method="post" class="del-form">
@@ -45,8 +45,10 @@
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
             <th width="20%">分组管理</th>
-            <th width="20%">用户注册登陆</th>
-            <th width="20%">用户中心</th>
+            <th width="20%">用户ID</th>
+            <th width="20%">用户名称</th>
+            <th width="20%">注册时间</th>
+            <th width="20%">登录时间</th>
           </tr>
         </thead>
         <tbody>

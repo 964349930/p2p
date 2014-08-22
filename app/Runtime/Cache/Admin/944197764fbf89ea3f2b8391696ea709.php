@@ -30,20 +30,25 @@
 
 <div class="tabs">
 	<ul>
-		<li class="current"><a href="javascript:void" class="btn"><span>订单管理模块</span></a></li>
+		<li class="current"><a href="javascript:void" class="btn"><span>产品列表展示</span></a></li>
 	</ul>
 </div>
 
 
-
+ <div class="toolbar">
+    <a href="javascript:void(0)" class="btn del-btn"><span>添加</span></a>
+  </div>
 <div class="list">
-      <form action="<?php echo U('Admin/Article/del');?>" method="post" class="del-form">
+      <form action="<?php echo U('Admin/Tpl/del');?>" method="post" class="del-form">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">订单生成</th>
-            <th width="20%">订单展示</th>
+            <th width="20%">产品ID</th>
+            <th width="20%">产品名称</th>
+            <td width="20%">产品信息</td>
+            <td width="20%"></td>
+            <th width="20%">产品详情展示</th>
           </tr>
         </thead>
         <tbody>
@@ -58,8 +63,8 @@
                 <td><?php echo ($vo["sort"]); ?></td>
                 <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
                 <td>
-                    <a href="<?php echo U('Home/Article/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
-                    <a href="<?php echo U('Home/Article/del',array('id'=>$vo[id]));?>">删除</a>
+                    <a href="<?php echo U('Admin/Tpl/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
+                    <a href="<?php echo U('Admin/Tpl/del',array('id'=>$vo[id]));?>">删除</a>
                 </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
         </tbody>

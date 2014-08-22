@@ -3,7 +3,9 @@
 class TplAction extends AdminAction
 {
 	public function ls(){
-		
+		$tplList = D('Users')->select();
+        $this->assign('list', $tplList);
+        $this->display();
 	}
 	public function info(){
 
