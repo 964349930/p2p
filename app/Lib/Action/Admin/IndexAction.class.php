@@ -77,7 +77,9 @@
             ),
 
             '订单管理模块' => array(
-                '订单管理模块' => U('Admin/Article/ls'),
+                '用户订单' => U('Admin/Article/ls'),
+                '机构订单' => U('Admin/Article/organic'),
+                '客户经理订单' => U('Admin/Article/manager'),
             ),
             '产品管理模块' => array(
                 '产品管理模块' => U('Admin/Tpl/ls'),

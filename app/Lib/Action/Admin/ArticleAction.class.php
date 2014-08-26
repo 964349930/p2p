@@ -23,7 +23,7 @@ class ArticleAction extends AdminAction
      */
     private function get_tpl_list()
     {
-        $list = D('Tpl')->select();
+        $list = D('Article')->select();
         return $list;
     }
 
@@ -65,7 +65,7 @@ class ArticleAction extends AdminAction
             }else{
                 $pid = $this->_get('pid');
             }
-            $this->assign('tplList', $this->get_tpl_list());
+            $this->assign('order', $this->get_tpl_list());
             $this->assign('pid', $pid);
             $this->display();
             exit;
@@ -86,6 +86,24 @@ class ArticleAction extends AdminAction
         }
         $this->success('操作成功');
     }
+
+    public function manager(){
+
+
+    }
+
+    public function mafo(){
+
+
+    }
+
+    public function organic(){
+
+    }
+
+    public function orfo(){
+        
+    }
     
     public function del(){
         $delIds = array();
@@ -101,7 +119,7 @@ class ArticleAction extends AdminAction
             $this->error('请选择您要删除的数据');
         }
         $arrMap['id'] = array('in', $delIds);
-        if(D('Article')->where($arrMap)->delete()){
+        if(D('order')->where($arrMap)->delete()){
             $this->success('删除成功');
         }else{
             $this->error('删除失败');
