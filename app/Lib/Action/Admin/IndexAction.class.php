@@ -85,15 +85,17 @@
                 '产品管理模块' => U('Admin/Tpl/ls'),
                 '产品后台' => U('Admin/Tpl/admin'),
                 '产品详情' => U('Admin/Tpl/xiangqing'),
+                
             ),
             '新闻管理模块' => array(
                 '新闻管理模块' => U('Admin/New/ls'),
                 '新闻管理模块' => U('Admin/New/info'),
             ),
             '用户管理模块' => array(
-                '分组管理'=>U('Admin/Users/ls'),
-                '用户注册登录'=>U('Admin/Users/yonghu'),
-                '用户中心'=>U('Admin/Users/zhongxin'),
+                '个人中心'=>U('Admin/Users/ls'),
+                '人个中心账户'=>U('Admin/Users/core'),
+                '个人收藏'=>U('Admin/Users/collect'),
+                '机构收藏'=>U('Admin/Users/')
             )
         );
 

@@ -30,23 +30,22 @@
 
 <div class="tabs">
 	<ul>
-		<li class="current"><a href="javascript:void" class="btn"><span>用户订单</span></a></li>
+		<li class="current"><a href="javascript:void">我的收藏</a></li>
 	</ul>
 </div>
- <div class="toolbar">
-    <a href="<?php echo U('Admin/Article/info');?>" class="btn"><span>用户新订单</span></a>
+
+<div class="toolbar">
+    <a href="javascript:void(0)" class="btn"><span>添加</span></a>
   </div>
 
-
 <div class="list">
-      <form action="<?php echo U('Admin/Article/info');?>" method="post" class="del-form">
+      <form action="<?php echo U('Admin/Users/del');?>" method="post" class="del-form">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">订单ID</th>
-            <th width="20%">订单名称</th>
-            <th width="20%">订单内容</th>
+            <th width="20%">用户收藏</th>
+            <th width="20%">机构收藏</th> 
           </tr>
         </thead>
         <tbody>
@@ -61,8 +60,8 @@
                 <td><?php echo ($vo["sort"]); ?></td>
                 <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
                 <td>
-                    <a href="<?php echo U('Admin/Article/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
-                    <a href="<?php echo U('Admin/Article/del',array('id'=>$vo[id]));?>">删除</a>
+                    <a href="<?php echo U('Admin/Users/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
+                    <a href="<?php echo U('Admin/Users/del',array('id'=>$vo[id]));?>">删除</a>
                 </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
         </tbody>

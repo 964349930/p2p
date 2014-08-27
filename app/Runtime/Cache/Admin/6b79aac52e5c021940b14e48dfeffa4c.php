@@ -35,7 +35,7 @@
 </div>
 
  <div class="toolbar">
-    <a href="<?php echo U('Admin/Artide/mafo');?>" class="btn"><span>添加</span></a>
+    <a href="<?php echo U('Admin/Artide/mafo');?>" class="btn"><span>添加新订单</span></a>
   </div>
 
 <div class="list">

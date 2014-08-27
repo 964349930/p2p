@@ -30,7 +30,7 @@
 
 <div class="tabs">
 	<ul>
-		<li class="current"><a href="javascript:void">用户管理</a></li>
+		<li class="current"><a href="javascript:void">个人中心</a></li>
 	</ul>
 </div>
 
@@ -44,9 +44,8 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">分组管理</th>
-            <th width="20%">用户ID</th>
-            <th width="20%">用户名称</th>
+            <th width="20%">我的帐户</th>
+            <th width="20%">个人信息</th>
             <th width="20%">注册时间</th>
             <th width="20%">登录时间</th>
           </tr>

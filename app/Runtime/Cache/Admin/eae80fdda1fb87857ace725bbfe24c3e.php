@@ -35,17 +35,14 @@
 <div class="edit">
 	<form method="post" action="<?php echo U('Admin/Article/info');?>" enctype="multipart/form-data">
 		<input type="hidden" name="id" value="<?php echo ($info["id"]); ?>"/>
-		<dl>
-			<dt>订单ID</dt>
-			<dd><input type="text" name="title" value="<?php echo ($info["title"]); ?>" class="w200"></dd>
-		</dl>
+		
 		<dl>
 			<dt>订单名称</dt>
 			<dd><input type="text" name="title" value="<?php echo ($info["title"]); ?>" class="w200"></dd>
 		</dl>
 		<dl>
             <dt>订单内容</dt>
-            <dd><input type="text" name="time" value="<?php echo ($info["time"]); ?>" class="w200"></dd>
+            <dd><input type="text" name="title" value="<?php echo ($info["title"]); ?>" class="w200"></dd>
         </dl>
       
        

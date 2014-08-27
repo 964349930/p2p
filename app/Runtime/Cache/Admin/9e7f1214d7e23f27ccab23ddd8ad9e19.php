@@ -34,7 +34,7 @@
 	</ul>
 </div>
  <div class="toolbar">
-    <a href="javascript:void(0)" class="btn del-btn"><span>添加</span></a>
+    <a href="javascript:void(0)" class="btn del-btn"><span>添加新订单</span></a>
   </div>
 
 
@@ -44,8 +44,9 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">机构-新订单</th>
-            <th width="20%">机构-已分配</th>
+            <th width="20%">已分配</th>
+            <th width="20%">分配产品ID</th>
+            <th width="20%">分配产品名称</th>
           </tr>
         </thead>
         <tbody>
@@ -60,8 +61,8 @@
                 <td><?php echo ($vo["sort"]); ?></td>
                 <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
                 <td>
-                    <a href="<?php echo U('Home/Article/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
-                    <a href="<?php echo U('Home/Article/del',array('id'=>$vo[id]));?>">删除</a>
+                    <a href="<?php echo U('Admin/Article/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
+                    <a href="<?php echo U('Admin/Article/del',array('id'=>$vo[id]));?>">删除</a>
                 </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
         </tbody>
