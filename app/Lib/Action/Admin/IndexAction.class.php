@@ -92,7 +92,7 @@
                 '新闻管理模块' => U('Admin/New/info'),
             ),
             '用户管理模块' => array(
-                '个人中心'=>U('Admin/Users/ls'),
+                '用户列表'=>U('Admin/Users/ls'),
                 '人个中心账户'=>U('Admin/Users/core'),
                 '个人收藏'=>U('Admin/Users/collect'),
                 '机构收藏'=>U('Admin/Users/')

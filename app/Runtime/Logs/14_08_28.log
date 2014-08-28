@@ -1,0 +1,135 @@
+[ 2014-08-28T08:59:32+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.019531s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.137695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139649s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.020508s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.027343s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.010742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.081054s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009766s ]
+
+[ 2014-08-28T08:59:38+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.190429s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='chen' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.020508s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002930s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041992s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001953s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2014-08-28T08:59:39+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003906s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: userInfo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\4b70113722ede13045c3ae2dd49777cf.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.077148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079102s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002929s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2014-08-28T09:18:05+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Users&a=ls
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `p_user_gruop` [ RunTime:0.012695s ]
+ERR: Table 'p2p.p_user_gruop' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_user_gruop`
+SQL: SELECT * FROM `p_user_gruop`  [ RunTime:0.001953s ]
+ERR: Table 'p2p.p_user_gruop' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `p_user_gruop` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004882s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.059570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002930s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2014-08-28T09:18:13+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Users&a=ls
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `p_user_gruop` [ RunTime:0.016602s ]
+ERR: Table 'p2p.p_user_gruop' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_user_gruop`
+SQL: SELECT * FROM `p_user_gruop`  [ RunTime:0.002930s ]
+ERR: Table 'p2p.p_user_gruop' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `p_user_gruop` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002929s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2014-08-28T09:53:55+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Users&a=core
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
