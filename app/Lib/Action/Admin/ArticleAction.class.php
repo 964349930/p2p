@@ -9,7 +9,7 @@ class ArticleAction extends AdminAction
      */
     public function ls()
     {
-        $articleList = D('Article')->select();
+        $articleList = D('Order')->select();
         $this->assign('list', $articleList);
         $this->display();
     }
@@ -19,7 +19,7 @@ class ArticleAction extends AdminAction
      */
     public function info()
     {
-        $orderObj = D('Article');
+        $orderObj = D('Order');
         if(empty($_POST)){
             $id = $this->_get('id');
             if(!empty($id)){

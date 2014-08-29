@@ -81,21 +81,15 @@
                 '机构订单' => U('Admin/Article/organic'),
                 '客户经理订单' => U('Admin/Article/manager'),
             ),
-            '产品管理模块' => array(
+            '机构管理模块' => array(
                 '产品管理模块' => U('Admin/Tpl/ls'),
-                '产品后台' => U('Admin/Tpl/admin'),
+                '新闻管理模块' => U('Admin/Tpl/admin'),
                 '产品详情' => U('Admin/Tpl/xiangqing'),
                 
             ),
-            '新闻管理模块' => array(
-                '新闻管理模块' => U('Admin/New/ls'),
-                '新闻管理模块' => U('Admin/New/info'),
-            ),
             '用户管理模块' => array(
                 '用户列表'=>U('Admin/Users/ls'),
-                '人个中心账户'=>U('Admin/Users/core'),
-                '个人收藏'=>U('Admin/Users/collect'),
-                '机构收藏'=>U('Admin/Users/')
+                '用户行为列表'=>U('Admin/Users/core'),
             )
         );
 

@@ -30,13 +30,9 @@
 
 <div class="tabs">
 	<ul>
-		<li class="current"><a href="javascript:void">人个中心账户</a></li>
+		<li class="current"><a href="javascript:void">用户行为列表</a></li>
 	</ul>
 </div>
-
-<div class="toolbar">
-    <a href="javascript:void(0)" class="btn"><span>添加</span></a>
-  </div>
 
 <div class="list">
       <form action="<?php echo U('Admin/Users/del');?>" method="post" class="del-form">
@@ -44,10 +40,10 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">用户ID</th>
-            <th width="20%">用户名称</th>
-            <th width="20%">余额情况</th>
-            <th width="20%">注册时间</th>
+            <th width="10%">用户ID</th>
+            <th width="20%">收藏分类</th>
+            <th width="20%">点赞</th>
+            <th width="20%">点赞时间</th>
           </tr>
         </thead>
         <tbody>

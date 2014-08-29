@@ -34,19 +34,16 @@
 	</ul>
 </div>
 
- <div class="toolbar">
-    <a href="<?php echo U('Admin/Artide/mafo');?>" class="btn"><span>添加新订单</span></a>
-  </div>
-
 <div class="list">
 
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">处理中订单</th>
-            <th width="20%">已完成订单</th>
-            <th width="20%">无效订单</th>
+            <th width="20%">订单ID</th>
+            <th width="20%">订单名称</th>
+            <th width="20%">是否为无效订单</th>
+            <th width="20%">是否处理完成</th>
           </tr>
         </thead>
         <tbody>

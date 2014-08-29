@@ -8,7 +8,7 @@
 
 
  <div class="toolbar">
-    <a href="javascript:void(0)" class="btn del-btn"><span>添加</span></a>
+    <a href="{:U('Admin/Tpl/info')}" class="btn"><span>产品添加</span></a>
   </div>
 <div class="list">
       <form action="{:U('Admin/Tpl/del')}" method="post" class="del-form">
@@ -16,11 +16,12 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">产品ID</th>
+            <th width="5%">产品ID</th>
             <th width="20%">产品名称</th>
             <td width="20%">产品信息</td>
-            <td width="20%"></td>
-            <th width="20%">产品详情展示</th>
+            <td width="20%">产品收益</td>
+            <th width="20%">期限</th>
+            <th width="20%">投资起点</th>
           </tr>
         </thead>
         <tbody>

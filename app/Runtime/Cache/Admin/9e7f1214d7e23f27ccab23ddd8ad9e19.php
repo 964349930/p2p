@@ -44,9 +44,10 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">已分配</th>
-            <th width="20%">分配产品ID</th>
-            <th width="20%">分配产品名称</th>
+
+            <th width="20%">产品ID</th>
+            <th width="20%">产品名称</th>
+            <th width="20%">是否已分配</th>
           </tr>
         </thead>
         <tbody>
