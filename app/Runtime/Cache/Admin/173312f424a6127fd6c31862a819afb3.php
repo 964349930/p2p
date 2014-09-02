@@ -47,6 +47,8 @@
             <th width="20%">订单ID</th>
             <th width="20%">订单名称</th>
             <th width="20%">订单内容</th>
+            <th width="20%">添加时间</th>
+            <th width="20%">操作</th>
           </tr>
         </thead>
         <tbody>
@@ -56,8 +58,8 @@
           <?php else: ?>
           <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td><input type="checkbox" name="id[]" value="<?php echo ($vo["id"]); ?>"></td>
+                <td><?php echo ($vo["id"]); ?></td>
                 <td><?php echo ($vo["name"]); ?></td>
-                <td><?php echo ($vo["flag"]); ?></td>
                 <td><?php echo ($vo["sort"]); ?></td>
                 <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
                 <td>

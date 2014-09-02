@@ -1,0 +1,110 @@
+[ 2014-09-02T09:18:11+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005860s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.144531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144531s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003906s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-02T09:18:18+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.103516s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='chen' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.022461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001953s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2014-09-02T09:18:19+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: userInfo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\4b70113722ede13045c3ae2dd49777cf.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.073242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074218s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001953s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2014-09-02T09:22:32+08:00 ] 127.0.0.1 /p2p/index.php?g=Admin&m=Article&a=ls
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `p_order` [ RunTime:0.066406s ]
+SQL: SELECT * FROM `p_order`  [ RunTime:0.000977s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005860s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005860s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\173312f424a6127fd6c31862a819afb3.php 第 62 行.
+NOTIC: [8] Undefined index: sort D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\173312f424a6127fd6c31862a819afb3.php 第 63 行.
+NOTIC: [8] Undefined index: time_modify D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\173312f424a6127fd6c31862a819afb3.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\173312f424a6127fd6c31862a819afb3.php 第 66 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Admin\173312f424a6127fd6c31862a819afb3.php 第 67 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.054688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054688s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002930s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2014-09-02T09:22:39+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005859s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043945s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002930s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+

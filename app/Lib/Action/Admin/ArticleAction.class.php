@@ -4,6 +4,26 @@
  */
 class ArticleAction extends AdminAction
 {
+
+    /**
+     * manager
+     */
+    public function manager()
+    {
+        $articList = D('Man') ->select();
+        $this->assign('list',$articList);
+        $this->display();
+    }
+
+    /**
+     * organic
+     */
+    public function organic()
+    {
+        $articList =D('Org') ->select();
+        $this->assign('list',$articList);
+        $this->display();
+    }
     /**
      * ls
      */
@@ -37,7 +57,7 @@ class ArticleAction extends AdminAction
             $orderObj->add($data);
         }else{
             $orderObj->save($data);
-        }
+        }   
         $this->success('操作成功');
     }
 

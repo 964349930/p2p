@@ -5,6 +5,15 @@
 class UsersAction extends AdminAction
 {
 /**
+* core
+*/
+public function core()
+{
+    $usersList = D('Behavior')->select();
+    $this->assign('list', $usersList);
+    $this->display();
+}
+/**
 * ls
 */
 public function ls()

@@ -33,18 +33,18 @@
     </ul>
 </div>
 <div class="edit">
-    <form method="post" action="<?php echo U('Admin/Users/info');?>" enctype="multipart/form-data">
+    <form method="post" action="<?php echo U('Admin/Tpl/info');?>" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?php echo ($info["id"]); ?>" />
         <dl>
         	<dt>产品名称</dt>
             <dd><input type="text"></dd>
         </dl>
         <dl>
-            <dt>产品ID </dt>
+            <dt>产品详情 </dt>
             <dd><input type="text"></dd>
         </dl>
         <dl>
-        	<dt>产品数量</dt>
+        	<dt>产品信息</dt>
         	<dd><input type="text"></dd>
         </dl>
         <dl>

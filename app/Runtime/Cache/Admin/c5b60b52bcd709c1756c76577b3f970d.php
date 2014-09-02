@@ -57,7 +57,7 @@
                 <td><?php echo ($vo["sort"]); ?></td>
                 <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
                 <td>
-                    <a href="<?php echo U('Admin/Tpl/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
+                    <a href="<?php echo U('Admin/Tpl/adfo',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
                     <a href="<?php echo U('Admin/Tpl/del',array('id'=>$vo[id]));?>">删除</a>
                 </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>

@@ -4,12 +4,22 @@
  */
 class TplAction extends AdminAction
 {
+
+    /**
+     * admin
+     */
+    public function admin()
+    {
+        $tplList = D('News') ->select();
+        $this->assign('list',$tplList);
+        $this->display();
+    }
     /**
      * ls
      */
     public function ls()
     {
-        $tplList = D('Tpl')->select();
+        $tplList = D('Product')->select();
         $this->assign('list', $tplList);
         $this->display();
     }
@@ -19,7 +29,7 @@ class TplAction extends AdminAction
      */
     public function info()
     {
-        $tplObj = D('Tpl');
+        $tplObj = D('Product');
         if(empty($_POST)){
             $id = $this->_get('id');
             if(!empty($id)){

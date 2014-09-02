@@ -84,7 +84,6 @@
             '机构管理模块' => array(
                 '产品管理模块' => U('Admin/Tpl/ls'),
                 '新闻管理模块' => U('Admin/Tpl/admin'),
-                '产品详情' => U('Admin/Tpl/xiangqing'),
                 
             ),
             '用户管理模块' => array(

@@ -33,10 +33,7 @@
 		<li class="current"><a href="javascript:void" class="btn"><span>机构订单</span></a></li>
 	</ul>
 </div>
- <div class="toolbar">
-    <a href="javascript:void(0)" class="btn del-btn"><span>添加新订单</span></a>
-  </div>
-
+ 
 
 <div class="list">
       <form action="<?php echo U('Admin/Article/del');?>" method="post" class="del-form">

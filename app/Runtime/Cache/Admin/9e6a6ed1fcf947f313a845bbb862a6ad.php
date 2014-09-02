@@ -44,7 +44,7 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="20%">用户id</th>
+            <th width="10%">用户id</th>
             <th width="20%">用户名称</th>
             <th width="20%">用户类型</th>
           </tr>
