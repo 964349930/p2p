@@ -47,20 +47,21 @@
             <th width="10%">用户id</th>
             <th width="20%">用户名称</th>
             <th width="20%">用户类型</th>
+            <th width="20%">操作</th>
           </tr>
         </thead>
         <tbody>
           <?php if(empty($list)): ?><tr>
               <td colspan="11" class="empty">暂无相关信息</td>
-            </tr>
+            </
+            tr>
           <?php else: ?>
           <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td><input type="checkbox" name="id[]" value="<?php echo ($vo["id"]); ?>"></td>
                 <td><?php echo ($vo["id"]); ?></td>
                 <td><?php echo ($vo["name"]); ?></td>
-                <td><?php echo ($vo["type"]); ?></td>
+                <td><?php echo ($vo["group_id"]); ?></td>
                 <td>
-                    <a href="<?php echo U('Admin/Users/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
                     <a href="<?php echo U('Admin/Users/del',array('id'=>$vo[id]));?>">删除</a>
                 </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>

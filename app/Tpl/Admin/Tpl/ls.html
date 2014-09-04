@@ -16,12 +16,9 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="5%">产品ID</th>
             <th width="20%">产品名称</th>
             <td width="20%">产品信息</td>
-            <td width="20%">产品收益</td>
-            <th width="20%">期限</th>
-            <th width="20%">投资起点</th>
+            <td width="20%">操作</td>
           </tr>
         </thead>
         <tbody>
@@ -34,9 +31,7 @@
               <tr>
                 <td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
                 <td>{$vo.name}</td>
-                <td>{$vo.flag}</td>
-                <td>{$vo.sort}</td>
-                <td>{$vo.time_modify|date="Y-m-d H:i", ###}</td>
+                <td>{$vo.desc}</td>
                 <td>
                     <a href="{:U('Admin/Tpl/info',array('id'=>$vo[id]))}" class="mr10">编辑</a>
                     <a href="{:U('Admin/Tpl/del',array('id'=>$vo[id]))}">删除</a>

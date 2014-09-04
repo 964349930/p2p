@@ -38,11 +38,11 @@
 		
 		<dl>
 			<dt>订单名称</dt>
-			<dd><input type="text" name="title" value="<?php echo ($info["title"]); ?>" class="w200"></dd>
+			<dd><input type="text" name="name" value="<?php echo ($info["name"]); ?>" class="w200"></dd>
 		</dl>
 		<dl>
             <dt>订单内容</dt>
-            <dd><input type="text" name="title" value="<?php echo ($info["title"]); ?>" class="w200"></dd>
+            <dd><input type="text" name="title" value="<?php echo ($info["status"]); ?>" class="w200"></dd>
         </dl>
       
        

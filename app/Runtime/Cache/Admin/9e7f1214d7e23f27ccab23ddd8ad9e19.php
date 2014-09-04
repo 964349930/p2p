@@ -41,10 +41,9 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-
-            <th width="20%">产品ID</th>
             <th width="20%">产品名称</th>
             <th width="20%">是否已分配</th>
+            <th width="20%">操作</th>
           </tr>
         </thead>
         <tbody>
@@ -54,11 +53,11 @@
           <?php else: ?>
           <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td><input type="checkbox" name="id[]" value="<?php echo ($vo["id"]); ?>"></td>
-                <td><?php echo ($vo["id"]); ?></td>
                 <td><?php echo ($vo["name"]); ?></td>
-                <td><?php echo ($vo[""]); ?></td>
-                <td><?php echo ($vo[""]); ?></td>
-                <td><?php echo ($vo[""]); ?></td>
+                <td><?php echo ($vo["desc"]); ?></td>
+                <td>
+                    <a href="<?php echo U('Admin/Article/orgdel',array('id'=>$vo[id]));?>">删除</a>
+                </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
         </tbody>
       </table>

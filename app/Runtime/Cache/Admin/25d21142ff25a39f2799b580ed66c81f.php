@@ -35,17 +35,17 @@
 <div class="edit">
     <form method="post" action="<?php echo U('Admin/Tpl/info');?>" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?php echo ($info["id"]); ?>" />
-        <dl>
-        	<dt>产品名称</dt>
-            <dd><input type="text"></dd>
+       <dl>
+            <dt>产品名称</dt>
+            <dd><input type="text" name="name" value="<?php echo ($info["name"]); ?>" class="w200"></dd>
         </dl>
         <dl>
-            <dt>产品详情 </dt>
-            <dd><input type="text"></dd>
+            <dt>产品详情</dt>
+            <dd><input type="text" name="desc" value="<?php echo ($info["desc"]); ?>" class="w200"></dd>
         </dl>
         <dl>
         	<dt>产品信息</dt>
-        	<dd><input type="text"></dd>
+        	 <select><option value="<?php echo ($info["list"]); ?>"class="w200"/>产品收益</option><option>期限</option><option>投资起点</option></select>
         </dl>
         <dl>
             <dt></dt>

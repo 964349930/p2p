@@ -37,11 +37,13 @@
         <input type="hidden" name="id" value="<?php echo ($info["id"]); ?>" />
         <dl>
         	<dt>分组管理</dt>
-            <select><option value="<?php echo ($info["list"]); ?>"class="w200"/>管理员</option><option>商家</option><option>顾客</option></select>
+            <dd>
+                <select><option value="<?php echo ($info["type"]); ?>"class="w200"/>管理员</option><option>商家</option><option>顾客</option></select>
+            </dd>
         </dl>
         <dl>
         	<dt>用户名称</dt>
-        	<dd><input type="text"></dd>
+        	<dd><input type="mane"></dd>
         </dl>
         <dl>
             <dt></dt>

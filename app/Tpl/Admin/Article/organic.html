@@ -13,10 +13,9 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-
-            <th width="20%">产品ID</th>
             <th width="20%">产品名称</th>
             <th width="20%">是否已分配</th>
+            <th width="20%">操作</th>
           </tr>
         </thead>
         <tbody>
@@ -28,11 +27,11 @@
           <volist name="list" id="vo">
               <tr>
                 <td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
-                <td>{$vo.id}</td>
                 <td>{$vo.name}</td>
-                <td>{$vo.}</td>
-                <td>{$vo.}</td>
-                <td>{$vo.}</td>
+                <td>{$vo.desc}</td>
+                <td>
+                    <a href="{:U('Admin/Article/orgdel',array('id'=>$vo[id]))}">删除</a>
+                </td>
               </tr>
             </volist>
           </empty>

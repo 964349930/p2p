@@ -44,12 +44,9 @@
         <thead>
           <tr>
             <th width="5%"><input type="checkbox" class="check-all" /></th>
-            <th width="5%">产品ID</th>
             <th width="20%">产品名称</th>
             <td width="20%">产品信息</td>
-            <td width="20%">产品收益</td>
-            <th width="20%">期限</th>
-            <th width="20%">投资起点</th>
+            <td width="20%">操作</td>
           </tr>
         </thead>
         <tbody>
@@ -60,9 +57,7 @@
           <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td><input type="checkbox" name="id[]" value="<?php echo ($vo["id"]); ?>"></td>
                 <td><?php echo ($vo["name"]); ?></td>
-                <td><?php echo ($vo["flag"]); ?></td>
-                <td><?php echo ($vo["sort"]); ?></td>
-                <td><?php echo (date("Y-m-d H:i", $vo["time_modify"])); ?></td>
+                <td><?php echo ($vo["desc"]); ?></td>
                 <td>
                     <a href="<?php echo U('Admin/Tpl/info',array('id'=>$vo[id]));?>" class="mr10">编辑</a>
                     <a href="<?php echo U('Admin/Tpl/del',array('id'=>$vo[id]));?>">删除</a>

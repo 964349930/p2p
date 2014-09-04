@@ -63,7 +63,7 @@ class TplAction extends AdminAction
             $this ->error('请确定你要删除的数据');
         }
         $arrMap['id'] = array('in',$delIds);
-        if (D('Tpl') -> where($arrMap) ->delete()) {
+        if (D('Product') -> where($arrMap) ->delete()) {
             $this ->success('删除成功');
         }else{
             //print_r(D('Tpl')->getLastSQL());exit;
