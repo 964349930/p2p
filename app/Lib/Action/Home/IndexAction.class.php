@@ -11,11 +11,7 @@ class IndexAction extends MobileAction
      */
     public function index()
     {
-        
-        $list = D('Article')->where('pid=0')->order('sort')->select();
-        $this->assign($this->get_set());
-        $this->assign('list', $list);
-        $this->display("Gaoli:index");
+        $this->display();
     }
 
     /**
