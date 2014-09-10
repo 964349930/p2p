@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -7,11 +7,11 @@
 <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" Content-Type="telephone=no">
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>银行理财</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
-  <div class="box2"><h1>银行理财</h1></div>
+  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
+  <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/search.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -59,7 +59,7 @@
 </div>
 <!-- 产品列表开始 -->
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product', array('id'=>"2"));?>">
     <table width="94%">
       <tr>
         <td width="40%"><h1>合盈优选SA465号</h1></td>
@@ -210,23 +210,22 @@
   <a href="#"><img src="../Public/img/position02.png">附近</a>
 </div>
 <!-- 浮窗结束 -->
-
 <!-- 底部开始 -->
-<div class="bottom">
+<div class="bottom" style="">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Index/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom1_01.png"></dt>
         <dd>百宝箱</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Community/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_02.png"></dt>
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Article/center');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>
@@ -235,6 +234,7 @@
   </ul>
 </div>
 <!-- 底部结束 -->
+
 </div>
 </body>
 </html>

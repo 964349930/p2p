@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit();?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,11 +8,11 @@
 <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" Content-Type="telephone=no">
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>信托产品</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -20,49 +21,53 @@
 <!-- 头部开始 -->
 <div class="header">
   <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
-  <div class="box2"><h1>信托产品</h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/search.png"></a></div>
+  <div class="box2"><h1>中国银行济南分行</h1></div>
+  <div class="box3"><a href="#"><img src="../Public/img/sc.png"></a></div>
 </div>
 <!-- 头部结束 -->
 
-<!-- 导航开始 -->
-<div class="bank_nav clearfix">
-  <ul>
-    <li><a href="#" class="border-r">预期收益</a></li>
-    <li><a href="#" class="border-r">投资期限</a></li>
-    <li><a href="#" class="border-r">投资起点</a></li>
-    <li><a href="#">发行机构</a></li>
-  </ul>
-</div>
-<!-- 导航结束 -->
+<!-- 内容开始 -->
 
-<!-- 列表开始 -->
-<div class="lc_list border-t mt10 clearfix">
-  <div class="list_l">
-    <a href="#">
-      <div class="photo">
-        <img src="../Public/img/bank01.jpg">
-      </div>
-      <div class="wb">
-        <h3>中国银行济南分行</h3>
-        <p>中银债市通理财计划</p>
-      </div>
-      <div class="position">
-        <img src="../Public/img/position01.png">
-        <span>100米</span>
-      </div>
-    </a>
+<div class="content clearfix">
+  <div class="content_top">
+    <img src="../Public/img/jgxq.jpg">
   </div>
-  <div class="list_r">
-   <a href="#"><img src="../Public/img/jt_r.png"></a>
+  <div class="content_wz">
+    <h1>中银财富固定收益市场展望与投资策略</h1>
+    <span>2014-07-18</span>
+    <p>债市展望：稳健为主。</p>
+    <p>1）房地产销售速度下滑超预期以及信托集中到付风险的担忧可能引起市场对实体经济信用风险的警惕，信用差价可能放大。</p>
+    <p>2）5月IPO将实质性重启，目前IPO已预披露222家，有望迎来一波新股结构性行情。建议投资者积极参与可打新股的一级债基和保本型基金。</p>
+    <p>3）基准利率水平继续向下调整的空间不大，建议客户配置“久期”较短的债券型基金，在股市疲弱和债市调整期，适当降低高风险类债券型基金的配置，静待股市和债市新的机会。</p>
   </div>
+</div>
+
+<div class="product_top mt10 clearfix">
+  <img src="../Public/img/zs.jpg">
+  <h1>活动中心</h1>
+</div>
+<div class="active_list mt10 clearfix">
+  <a href="#">
+    “八月‘忠’情月，喜新更念旧”感恩回馈月活动
+   </a>
+   <a href="#">
+    激情世界杯，申购赢大奖 
+   </a>
+   <a href="#" class="border-b">
+    “八月‘忠’情月，喜新更念旧”感恩回馈月活动
+   </a>
+</div>
+
+<div class="product_top fl mt10 clearfix">
+  <img src="../Public/img/zs.jpg">
+  <h1>产品推荐</h1>
 </div>
 <!-- 产品列表开始 -->
-<div class="product_list clearfix">
+<div class="product_list border-t mt10 clearfix">
   <a href="#">
     <table width="94%">
       <tr>
-        <td width="40%"><h1>合盈优选SA465号</h1></td>
+        <td width="30%"><h1>合盈优选SA465号</h1></td>
         <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
         <td><img src="../Public/img/tag01.png"></td>
       </tr>
@@ -83,7 +88,7 @@
   <a href="#">
     <table width="94%">
       <tr>
-        <td width="40%"><h1>合盈优选SA465号</h1></td>
+        <td width="30%"><h1>合盈优选SA465号</h1></td>
         <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
         <td><img src="../Public/img/tag01.png"></td>
       </tr>
@@ -104,7 +109,7 @@
   <a href="#">
     <table width="94%">
       <tr>
-        <td width="40%"><h1>合盈优选SA465号</h1></td>
+        <td width="30%"><h1>合盈优选SA465号</h1></td>
         <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
         <td><img src="../Public/img/tag02.png"></td>
       </tr>
@@ -125,7 +130,7 @@
   <a href="#">
     <table width="94%">
       <tr>
-        <td width="40%"><h1>合盈优选SA465号</h1></td>
+        <td width="30%"><h1>合盈优选SA465号</h1></td>
         <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
         <td><img src="../Public/img/tag02.png"></td>
       </tr>
@@ -143,76 +148,24 @@
   </a>
 </div>
 <!-- 产品列表结束 -->
-<div class="lc_list clearfix">
-  <div class="list_l">
-    <a href="#">
-      <div class="photo">
-        <img src="../Public/img/bank02.jpg">
-      </div>
-      <div class="wb">
-        <h3>农业银行济南分行</h3>
-        <p>中银债市通理财计划</p>
-      </div>
-      <div class="position">
-        <img src="../Public/img/position01.png">
-        <span>300米</span>
-      </div>
-    </a>  
-  </div>
-  <div class="list_r">
-    <a href="#"><img src="../Public/img/jt_r.png"></a>
-  </div>
+<div class="product_top fl mt10 clearfix">
+  <img src="img/zs.jpg">
+  <h1>客户经理</h1>
 </div>
-<div class="lc_list clearfix">
-  <div class="list_l">
-    <a href="#">
-      <div class="photo">
-        <img src="../Public/img/bank03.jpg">
-      </div>
-      <div class="wb">
-        <h3>建设银行济南分行</h3>
-        <p>中银债市通理财计划</p>
-      </div>
-      <div class="position">
-        <img src="../Public/img/position01.png">
-        <span>500米</span>
-      </div>
-     </a>  
-  </div>
-  <div class="list_r">
-    <a href="#"><img src="../Public/img/jt_r.png"></a>
-  </div>
+<div class="active_list mt10 clearfix">
+  <a href="#">
+    张经理
+   </a>
+   <a href="#">
+    王经理
+   </a>
+   <a href="#" class="border-b">
+    刘经理
+   </a>
 </div>
-<div class="lc_list clearfix">
-  <div class="list_l">
-    <a href="#">
-    <div class="photo">
-      <img src="../Public/img/bank04.jpg">
-    </div>
-    <div class="wb">
-      <h3>招商银行济南分行</h3>
-      <p>中银债市通理财计划</p>
-    </div>
-    <div class="position">
-      <img src="../Public/img/position01.png">
-      <span>800米</span>
-    </div>
-    </a>
-  </div>
-  <div class="list_r">
-    <a href="#"><img src="../Public/img/jt_r.png"></a>
-  </div>
-</div>
-<!-- 列表结束 -->
-
-<!-- 浮窗开始 -->
-<div class="map border-t">
-  <a href="#"><img src="../Public/img/position02.png">附近</a>
-</div>
-<!-- 浮窗结束 -->
-
+<!-- 内容结束 -->
 <!-- 底部开始 -->
-<div class="bottom">
+<div class="bottom" style="">
   <ul>
     <li><a href="#">
       <dl>
@@ -235,6 +188,7 @@
   </ul>
 </div>
 <!-- 底部结束 -->
+
 </div>
 </body>
 </html>

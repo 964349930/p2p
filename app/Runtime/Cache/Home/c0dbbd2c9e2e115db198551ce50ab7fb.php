@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>有元宝首页</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -74,10 +74,10 @@
 <div class="sub_nav mt10 clearfix">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tr>
-      <td width="25%"><a href="#"><img src="../Public/img/nav_01.png"><span>银行理财</span></a></td>
-      <td width="25%"><a href="#"><img src="../Public/img/nav_02.png"><span>信托产品</span></a></td>
-      <td width="25%"><a href="#"><img src="../Public/img/nav_03.png"><span>资产管理产品</span></a></td>
-      <td width="25%"><a href="#"><img src="../Public/img/nav_04.png"><span>基金</span></a></td>
+      <td width="25%"><a href="<?php echo U('Tpl/productList', array('type'=>'银行理财'));?>"><img src="../Public/img/nav_01.png"><span>银行理财</span></a></td>
+      <td width="25%"><a href="<?php echo U('Tpl/productList', array('type'=>'信托产品'));?>"><img src="../Public/img/nav_02.png"><span>信托产品</span></a></td>
+      <td width="25%"><a href="<?php echo U('Tpl/productList', array('type'=>'资产管理产品'));?>"><img src="../Public/img/nav_03.png"><span>资产管理产品</span></a></td>
+      <td width="25%"><a href="<?php echo U('Tpl/productList', array('type'=>'基金'));?>"><img src="../Public/img/nav_04.png"><span>基金</span></a></td>
     </tr>
   </table>
 </div>
@@ -143,21 +143,21 @@
 <!-- 列表结束 -->
 
 <!-- 底部开始 -->
-<div class="bottom">
+<div class="bottom" style="">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Index/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom1_01.png"></dt>
         <dd>百宝箱</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Community/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_02.png"></dt>
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Article/center');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>
@@ -167,5 +167,6 @@
 </div>
 <!-- 底部结束 -->
 </div>
+
 </body>
 </html>

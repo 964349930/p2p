@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -7,11 +7,11 @@
 <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" Content-Type="telephone=no">
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>机构中心</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 <!-- 头部开始 -->
 <div class="header">
   <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
-  <div class="box2"><h1>机构中心</h1></div>
+  <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
 </div>
 <!-- 头部结束 -->

@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -7,11 +7,11 @@
 <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" Content-Type="telephone=no">
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>基金</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 <!-- 头部开始 -->
 <div class="header">
   <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
-  <div class="box2"><h1>基金</h1></div>
+  <div class="box2"><h1>银行理财</h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/search.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -38,24 +38,24 @@
 
 <!-- 列表开始 -->
 <div class="lc_list border-t mt10 clearfix">
-  <a href="#">
-    <div class="list_l">
-    <div class="photo">
-      <img src="../Public/img/bank01.jpg">
-    </div>
-    <div class="wb">
-      <h3>中国银行济南分行</h3>
-      <p>中银债市通理财计划</p>
-    </div>
-    <div class="position">
-      <img src="../Public/img/position01.png">
-      <span>100米</span>
-    </div>
-    </div>
-   </a>
-   <div class="list_r">
-     <a href="#"><img src="../Public/img/jt_r.png"></a>
-   </div>
+  <div class="list_l">
+    <a href="#">
+      <div class="photo">
+        <img src="../Public/img/bank01.jpg">
+      </div>
+      <div class="wb">
+        <h3>中国银行济南分行</h3>
+        <p>中银债市通理财计划</p>
+      </div>
+      <div class="position">
+        <img src="../Public/img/position01.png">
+        <span>100米</span>
+      </div>
+    </a>
+  </div>
+  <div class="list_r">
+   <a href="#"><img src="../Public/img/jt_r.png"></a>
+  </div>
 </div>
 <!-- 产品列表开始 -->
 <div class="product_list clearfix">
@@ -144,48 +144,48 @@
 </div>
 <!-- 产品列表结束 -->
 <div class="lc_list clearfix">
-  <a href="#">
-    <div class="list_l">
-    <div class="photo">
-      <img src="../Public/img/bank02.jpg">
-    </div>
-    <div class="wb">
-      <h3>农业银行济南分行</h3>
-      <p>中银债市通理财计划</p>
-    </div>
-    <div class="position">
-      <img src="../Public/img/position01.png">
-      <span>300米</span>
-    </div>
-    </div>
-   </a>
-   <div class="list_r">
-     <a href="#"><img src="../Public/img/jt_r.png"></a>
-   </div>
+  <div class="list_l">
+    <a href="#">
+      <div class="photo">
+        <img src="../Public/img/bank02.jpg">
+      </div>
+      <div class="wb">
+        <h3>农业银行济南分行</h3>
+        <p>中银债市通理财计划</p>
+      </div>
+      <div class="position">
+        <img src="../Public/img/position01.png">
+        <span>300米</span>
+      </div>
+    </a>  
+  </div>
+  <div class="list_r">
+    <a href="#"><img src="../Public/img/jt_r.png"></a>
+  </div>
 </div>
 <div class="lc_list clearfix">
-  <a href="#">
-    <div class="list_l">
-    <div class="photo">
-      <img src="../Public/img/bank03.jpg">
-    </div>
-    <div class="wb">
-      <h3>建设银行济南分行</h3>
-      <p>中银债市通理财计划</p>
-    </div>
-    <div class="position">
-      <img src="../Public/img/position01.png">
-      <span>500米</span>
-    </div>
-    </div>
-   </a>
-   <div class="list_r">
-     <a href="#"><img src="../Public/img/jt_r.png"></a>
-   </div>
+  <div class="list_l">
+    <a href="#">
+      <div class="photo">
+        <img src="../Public/img/bank03.jpg">
+      </div>
+      <div class="wb">
+        <h3>建设银行济南分行</h3>
+        <p>中银债市通理财计划</p>
+      </div>
+      <div class="position">
+        <img src="../Public/img/position01.png">
+        <span>500米</span>
+      </div>
+     </a>  
+  </div>
+  <div class="list_r">
+    <a href="#"><img src="../Public/img/jt_r.png"></a>
+  </div>
 </div>
 <div class="lc_list clearfix">
-  <a href="#">
-    <div class="list_l">
+  <div class="list_l">
+    <a href="#">
     <div class="photo">
       <img src="../Public/img/bank04.jpg">
     </div>
@@ -197,11 +197,11 @@
       <img src="../Public/img/position01.png">
       <span>800米</span>
     </div>
-    </div>
-   </a>
-   <div class="list_r">
-     <a href="#"><img src="../Public/img/jt_r.png"></a>
-   </div>
+    </a>
+  </div>
+  <div class="list_r">
+    <a href="#"><img src="../Public/img/jt_r.png"></a>
+  </div>
 </div>
 <!-- 列表结束 -->
 

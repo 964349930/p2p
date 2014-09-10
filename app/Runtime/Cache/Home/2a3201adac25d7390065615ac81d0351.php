@@ -1,10 +1,26 @@
-<include file="Public:header" />
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="../Public/css/base.css">
+<link rel="stylesheet" href="../Public/css/page.css">
+<script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
+<title>进宝圈</title>
+</head>
+
+<body>
 <div data-role="page" id="main">
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box0 ml20"><a href="#">济南<img src="../Public/img/jt_01.png"></a></div>
-  <div class="box2"><h1>有元宝</h1></div>
+  <div class="box1"><a href="#"><img src="../Public/img/top.png"></a></div>
+  <div class="box2"><h1>进宝圈</h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -37,7 +53,7 @@
        <div id="scroller">
          <ul id="thelist">
            <li><img src="../Public/img/banner_01.jpg"/></li>
-           <li><img src="../Public/ img/banner_02.jpg"/></li>  
+           <li><img src="../Public/img/banner_02.jpg"/></li>  
         </ul>
       </div>
     </div>
@@ -54,70 +70,41 @@
 <script type="text/javascript" src="../Public/js/banner.js"></script>
 <!-- 幻灯结束 -->
 
-<!-- 导航开始 -->
-<div class="sub_nav mt10 clearfix">
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td width="25%"><a href="{:U('Tpl/productList', array('type'=>'银行理财'))}"><img src="../Public/img/nav_01.png"><span>银行理财</span></a></td>
-      <td width="25%"><a href="{:U('Tpl/productList', array('type'=>'信托产品'))}"><img src="../Public/img/nav_02.png"><span>信托产品</span></a></td>
-      <td width="25%"><a href="{:U('Tpl/productList', array('type'=>'资产管理产品'))}"><img src="../Public/img/nav_03.png"><span>资产管理产品</span></a></td>
-      <td width="25%"><a href="{:U('Tpl/productList', array('type'=>'基金'))}"><img src="../Public/img/nav_04.png"><span>基金</span></a></td>
-    </tr>
-  </table>
-</div>
-<!-- 导航结束 -->
-
 <!-- 列表开始 -->
-<div class="product_top mt10 clearfix">
-  <img src="../Public/img/zs.jpg">
-  <h1>产品推荐</h1>
-</div>
 <div class="product_tj fl clearfix">
   <ul>
     <li><a href="#">
       <div class="photo">
-        <img src="../Public/img/img01.jpg">
+        <img src="../Public/img/qz01.jpg">
       </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
+      <span>公共版区</span>
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
       </div>
     </a></li>
     <li><a href="#">
       <div class="photo">
-        <img src="../Public/img/img01.jpg">
+        <img src="../Public/img/qz02.jpg">
       </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
+      <span>黄金论坛</span>
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
       </div>
     </a></li>
     <li><a href="#">
       <div class="photo">
-        <img src="../Public/img/img01.jpg">
+        <img src="../Public/img/qz03.jpg">
       </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
+      <span>银行论坛</span>
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
       </div>
     </a></li>
     <li><a href="#">
       <div class="photo">
-        <img src="../Public/img/img01.jpg">
+        <img src="../Public/img/qz04.jpg">
       </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
+      <span>基金论坛</span>
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
       </div>
@@ -126,7 +113,30 @@
 </div>
 <!-- 列表结束 -->
 
-<include file="Public:bar" />
+<!-- 底部开始 -->
+<div class="bottom">
+  <ul>
+    <li><a href="#">
+      <dl>
+        <dt><img src="../Public/img/bottom_01.png"></dt>
+        <dd>百宝箱</dd>
+      </dl>
+    </a></li>
+    <li><a href="#">
+      <dl>
+        <dt><img src="../Public/img/bottom1_02.png"></dt>
+        <dd>圈子</dd>
+      </dl>
+    </a></li>
+    <li><a href="#">
+      <dl>
+        <dt><img src="../Public/img/bottom_03.png"></dt>
+        <dd>我的元宝</dd>
+      </dl>
+    </a></li>
+  </ul>
 </div>
-
-<include file="Public:footer" />
+<!-- 底部结束 -->
+</div>
+</body>
+</html>
