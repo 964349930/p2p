@@ -7,11 +7,11 @@
 <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" Content-Type="telephone=no">
 <link rel="stylesheet" href="../Public/css/base.css">
 <link rel="stylesheet" href="../Public/css/page.css">
 <script type="text/javascript" src="../Public/js/jquery-1.8.3.min.js"></script>
-<title>进宝圈</title>
+<title><?php echo ($title); ?></title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box1"><a href="#"><img src="../Public/img/top.png"></a></div>
-  <div class="box2"><h1>进宝圈</h1></div>
+  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/top.png"></a></div>
+  <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -114,21 +114,21 @@
 <!-- 列表结束 -->
 
 <!-- 底部开始 -->
-<div class="bottom">
+<div class="bottom" style="">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Index/index');?>">
       <dl>
-        <dt><img src="../Public/img/bottom_01.png"></dt>
+        <dt><img src="../Public/img/bottom1_01.png"></dt>
         <dd>百宝箱</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Community/index');?>">
       <dl>
-        <dt><img src="../Public/img/bottom1_02.png"></dt>
+        <dt><img src="../Public/img/bottom_02.png"></dt>
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Users/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>
@@ -136,6 +136,7 @@
     </a></li>
   </ul>
 </div>
+<!-- 底部结束 -->
 <!-- 底部结束 -->
 </div>
 </body>

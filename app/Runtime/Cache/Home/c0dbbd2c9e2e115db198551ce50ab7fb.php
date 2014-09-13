@@ -20,7 +20,7 @@
 <!-- 头部开始 -->
 <div class="header">
   <div class="box0 ml20"><a href="#">济南<img src="../Public/img/jt_01.png"></a></div>
-  <div class="box2"><h1>有元宝</h1></div>
+  <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -88,51 +88,15 @@
   <img src="../Public/img/zs.jpg">
   <h1>产品推荐</h1>
 </div>
-<div class="product_tj fl clearfix">
+  <div class="product_tj fl clearfix">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Tpl/product');?>">
       <div class="photo">
         <img src="../Public/img/img01.jpg">
       </div>
       <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
-      <div class="jt_r">
-        <img src="../Public/img/jt_r.png">
-      </div>
-    </a></li>
-    <li><a href="#">
-      <div class="photo">
-        <img src="../Public/img/img01.jpg">
-      </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
-      <div class="jt_r">
-        <img src="../Public/img/jt_r.png">
-      </div>
-    </a></li>
-    <li><a href="#">
-      <div class="photo">
-        <img src="../Public/img/img01.jpg">
-      </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
-      </div>
-      <div class="jt_r">
-        <img src="../Public/img/jt_r.png">
-      </div>
-    </a></li>
-    <li><a href="#">
-      <div class="photo">
-        <img src="../Public/img/img01.jpg">
-      </div>
-      <div class="wb">
-        <h3>平安金融-物业贷</h3>
-        <p>无抵押，无担保，有房即可申请。</p>
+        <h3><?php echo ($vo["name"]); ?></h3>
+        <p><?php echo ($vo["desc"]); ?></p>
       </div>
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
@@ -140,6 +104,25 @@
     </a></li>
   </ul>
 </div>
+
+  <div class="product_tj fl clearfix">
+  <ul>
+    <li><a href="<?php echo U('Tpl/product');?>">
+      <div class="photo">
+        <img src="../Public/img/img01.jpg">
+      </div>
+      <div class="wb">
+        <h3><?php echo ($vo["name"]); ?></h3>
+        <p><?php echo ($vo["desc"]); ?></p>
+      </div>
+      <div class="jt_r">
+        <img src="../Public/img/jt_r.png">
+      </div>
+    </a></li>
+  </ul>
+</div>
+
+
 <!-- 列表结束 -->
 
 <!-- 底部开始 -->
@@ -157,7 +140,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Article/center');?>">
+    <li><a href="<?php echo U('Users/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

@@ -3,7 +3,9 @@
 
 class TplAction extends HomeAction
 {
-
+	/**
+	*
+	*/
 	public function productList()
 	{
 		$type = $_GET['type'];
@@ -12,9 +14,12 @@ class TplAction extends HomeAction
 		$this->display();
 
 	}
-
+	/**
+	*产品详情
+	*/
 	public function product()
 	{
+		
 		$id = $_GET['id'];
 		$this->assign('title', "产品详情");
 		$this->display();

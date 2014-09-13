@@ -10,54 +10,68 @@ class ArticleAction extends HomeAction
 
 	public function allocation()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "订单管理");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*个人中心
 	*/
 
 	public function complete()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "个人中心");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*订单管理（已完成订单）
 	*/
 
 	public function details()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "订单管理（已完成订单）");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*我的订单-新订单
 	*/
 
 	public function myorder()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "我的订单-新订单");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*订单管理（新订单）
 	*/
 
 	public function order()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "订单管理（新订单）");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*订单管理（机构-新订单）
 	*/
 
 	public function orgorder()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "订单管理（机构-新订单）");
 		$this->display();
 	}
 	/**
-	*订单管理
+	*订单管理（处理中订单）
 	*/
 
 	public function proces()
 	{
+		$id = $_GET['id'];
+		$this->assign('title', "订单管理（处理中订单）");
 		$this->display();
 	}
 }

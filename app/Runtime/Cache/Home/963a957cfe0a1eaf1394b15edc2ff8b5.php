@@ -118,19 +118,19 @@
 <!-- 底部开始 -->
 <div class="bottom" style="">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Index/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom1_01.png"></dt>
         <dd>百宝箱</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Community/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_02.png"></dt>
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Users/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

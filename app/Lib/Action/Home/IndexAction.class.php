@@ -11,6 +11,8 @@ class IndexAction extends MobileAction
      */
     public function index()
     {
+    	$list = D('Product') -> select();
+		$this ->assign('list',$list);
         $title = "有元宝首页";
         $this->assign("title", $title);
         $this->display();

@@ -20,8 +20,8 @@
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
-  <div class="box2"><h1>中国银行济南分行</h1></div>
+  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
+  <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/sc.png"></a></div>
 </div>
 <!-- 头部结束 -->
@@ -167,19 +167,19 @@
 <!-- 底部开始 -->
 <div class="bottom" style="">
   <ul>
-    <li><a href="#">
+    <li><a href="<?php echo U('Index/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom1_01.png"></dt>
         <dd>百宝箱</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Community/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_02.png"></dt>
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="#">
+    <li><a href="<?php echo U('Users/index');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>
