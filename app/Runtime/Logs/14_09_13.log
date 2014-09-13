@@ -64,3 +64,29 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.002929s ]
 INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
 
+[ 2014-09-13T11:19:14+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.056641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061523s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.032226s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.001953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009766s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Home\c0dbbd2c9e2e115db198551ce50ab7fb.php 第 98 行.
+NOTIC: [8] Undefined variable: vo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Home\c0dbbd2c9e2e115db198551ce50ab7fb.php 第 99 行.
+NOTIC: [8] Undefined variable: vo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Home\c0dbbd2c9e2e115db198551ce50ab7fb.php 第 115 行.
+NOTIC: [8] Undefined variable: vo D:\SoftWare\wamp\www\p2p\app\Runtime\Cache\Home\c0dbbd2c9e2e115db198551ce50ab7fb.php 第 116 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.083985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003906s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004883s ]
+
