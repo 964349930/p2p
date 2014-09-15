@@ -25,13 +25,13 @@ class ArticleAction extends HomeAction
 		$this->display();
 	}
 	/**
-	*订单管理（已完成订单）
+	*机构详情
 	*/
 
 	public function details()
 	{
 		$id = $_GET['id'];
-		$this->assign('title', "订单管理（已完成订单）");
+		$this->assign('title', "机构详情");
 		$this->display();
 	}
 	/**
@@ -72,6 +72,23 @@ class ArticleAction extends HomeAction
 	{
 		$id = $_GET['id'];
 		$this->assign('title', "订单管理（处理中订单）");
+		$this->display();
+	}
+	/**
+	*
+	*/
+	public function management()
+	{
+		$id = $_GET['id'];
+		$this->assign('title', "");
+		$this->display();
+	}
+	/**
+	*机构管理
+	*/
+	public function center(){
+		$id = $_GET['id'];
+		$this->assign('title', "机构管理");
 		$this->display();
 	}
 }

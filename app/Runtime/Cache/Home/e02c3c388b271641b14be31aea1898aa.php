@@ -21,38 +21,30 @@
 <div class="header">
   <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
+  <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
 </div>
 <!-- 头部结束 -->
 
+
 <!-- 内容开始 -->
-
-<!-- 个人中心头部 -->
-<div class="user_gz">
-  <div class="tx">
-    <a href="#"><img src="../Public/img/user_02.jpg"></a>
+<div class="zc">
+  <div class="zc01 border-b">
+    <input type="text" id="tel" name="name" class="txt">
+    <span>手机号</span>
+    
   </div>
-  <div class="user_name">
-    <a href="#">186****3532</a>
-  </div>
-</div>
-<!-- 个人中心头部结束 -->
-<div class="user_list mt10 border-t border-b">
-  <div class="container border-b">
-    <a href="<?php echo U('Public/login');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="<?php echo U('Article/myorder');?>"><span>我的订单</span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="<?php echo U('Users/procollect');?>"><span>我的收藏</span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="<?php echo U('Users/subcollect');?>"><span>我的话题</span><img src="../Public/img/jt_r.png"></a>
+  <div class="zc01">
+    <input type="password" id="password" name="password" class="txt">
+    <span>密码</span>
   </div>
 </div>
-<button class="btn" type="button">退出登录</button>
-
+<div class="zc02 mb10">
+  <input type="checkbox" name="test"><span>记住密码</span>
+  <a href="#">忘记密码？</a>
+</div>
+<button type="button" class="dl_btn">登录</button>
+<button type="button" class="yh_btn">用户注册</button>
+<button type="button" class="kh_btn">客户经理注册</button>
 <!-- 内容结束 -->
 
 </div>

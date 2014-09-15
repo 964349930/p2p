@@ -19,9 +19,9 @@
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
+  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
+  <div class="box3"><a href="#"><img src="img/top.png"></a></div>
 </div>
 <!-- 头部结束 -->
 
@@ -30,7 +30,7 @@
 <!-- 个人中心头部 -->
 <div class="user_gz">
   <div class="tx">
-    <a href="#"><img src="../Public/img/user_02.jpg"></a>
+    <a href="#"><img src="img/user_02.jpg"></a>
   </div>
   <div class="user_name">
     <a href="#">186****3532</a>
@@ -39,19 +39,15 @@
 <!-- 个人中心头部结束 -->
 <div class="user_list mt10 border-t border-b">
   <div class="container border-b">
-    <a href="<?php echo U('Public/login');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
+    <a href="#"><span>机构名称</span><span class="time">中国银行济南分行</span><img src="img/jt_r.png"></a>
   </div>
   <div class="container border-b">
-    <a href="<?php echo U('Article/myorder');?>"><span>我的订单</span><img src="../Public/img/jt_r.png"></a>
+    <a href="#"><span>联系方式</span><span class="time">0531-8531****</span><img src="img/jt_r.png"></a>
   </div>
-  <div class="container border-b">
-    <a href="<?php echo U('Users/procollect');?>"><span>我的收藏</span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="<?php echo U('Users/subcollect');?>"><span>我的话题</span><img src="../Public/img/jt_r.png"></a>
+  <div class="container">
+    <a href="#"><span>登录时间</span><span class="time">2014-08-03 9:50 济南</span></a>
   </div>
 </div>
-<button class="btn" type="button">退出登录</button>
 
 <!-- 内容结束 -->
 

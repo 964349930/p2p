@@ -26,17 +26,20 @@
 <!-- 头部结束 -->
 
 <!--  内容开始 -->
+
 <div class="cp_top border-b cp clearfix">
+ 
   <div class="cp_l">
     <p>预期年化收益</p>
-    <span>9.00%</span>
+    <span><?php echo ($info["income"]); ?></span>
   </div>
   <div class="cp_r">
     <p>投资期限1年</p>
     <p>投资起点（元）</p>
-    <p>500</p>
+      <p><?php echo ($info["origin"]); ?></p>
   </div>
 </div>
+
 
 <!-- 列表开始 -->
 <div class="product_top fl mt10 clearfix">
@@ -46,23 +49,23 @@
 <div class="sg_list border-t border-b mt10 clearfix">
   <div class="sg_list1 border-d">
     <a href="#"><span>销售结束日</span>
-    <div class="right">2014-12-31</div></a>
+      <div class="right"><?php echo ($info["time_create"]); ?></div></a>
   </div>
   <div class="sg_list1 border-d">
     <a href="#"><span>投资到期日</span>
-    <div class="right">2014-12-31</div></a>
+        <div class="right"><?php echo ($info["time_modify"]); ?></div></a>
   </div>
   <div class="sg_list1 border-d">
     <a href="#"><span>风险等级</span>
-    <div class="right">有一定风险 3R</div></a>
+    <div class="right">有一定风险  3R</div></a>
   </div>
   <div class="sg_list1 border-d">
     <a href="#"><span>已申购人数</span>
-    <div class="right">10235 人</div></a>
+    <div class="right"><?php echo ($info["number"]); ?></div></a>
   </div>
   <div class="sg_list1">
     <a href="#"><span>购买笔数</span>
-    <div class="right">9168 笔</div></a>
+    <div class="right"><?php echo ($info["number"]); ?></div></a>
   </div>
 </div>
 
@@ -95,17 +98,19 @@
 </div>
 <div class="lc_list fl mt10 border-t clearfix">
   <div class="list_l">
-    <a href="<?php echo U('Article/details');?>">
+    <a href="<?php echo U('Article/details', array('id'=>$info['id']));?>">
       <div class="photo">
         <img src="../Public/img/bank02.jpg">
       </div>
       <div class="wb">
-        <h3>农业银行济南分行</h3>
-        <p>中银债市通理财计划</p>
+        <h3><?php echo ($info["name"]); ?></h3>
+        <p><?php echo ($info["desc"]); ?></p>
       </div>
     </a>
   </div>
+  
 </div>
+
 <!-- 列表结束 -->
 <!--  内容结束 -->
 
@@ -130,7 +135,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

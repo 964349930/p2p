@@ -88,33 +88,10 @@
   <img src="../Public/img/zs.jpg">
   <h1>产品推荐</h1>
 </div>
-<div>
-  <ul>
-    <li><a href
-      
-    </li>
-  </ul>
-</div>
-  <div class="product_tj fl clearfix">
-  <ul>
-    <li><a href="<?php echo U('Tpl/product');?>">
-      <div class="photo">
-        <img src="../Public/img/img01.jpg">
-      </div>
-      <div class="wb">
-        <h3><?php echo ($vo["name"]); ?></h3>
-        <p><?php echo ($vo["desc"]); ?></p>
-      </div>
-      <div class="jt_r">
-        <img src="../Public/img/jt_r.png">
-      </div>
-    </a></li>
-  </ul>
-</div>
 
-  <div class="product_tj fl clearfix">
+<div class="product_tj fl clearfix">
   <ul>
-    <li><a href="<?php echo U('Tpl/product');?>">
+    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Tpl/product',array('id'=>$vo['id']));?>">
       <div class="photo">
         <img src="../Public/img/img01.jpg">
       </div>
@@ -125,7 +102,7 @@
       <div class="jt_r">
         <img src="../Public/img/jt_r.png">
       </div>
-    </a></li>
+    </a></li><?php endforeach; endif; else: echo "" ;endif; ?>
   </ul>
 </div>
 
@@ -147,7 +124,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

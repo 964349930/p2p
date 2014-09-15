@@ -3,6 +3,19 @@
 
 class PublicAction extends HomeAction
 {
+	public function doLogin()
+	{
+		//print_r($_POST);exit;
+        $name = $_POST['name'];
+        $pwd = $_POST['password'];
+        $userInfo = D('User')->where("name='".$name."' AND password='".md5($pwd)."'")->find();
+        //print_r (D('User')->getLastSQL());exit;
+        if(empty($userInfo)){
+            $this->error('用户名或密码错误');
+        }
+        $this->setSession($userInfo['id']);
+        $this->success('登录成功', U('Hone/Users/index'));
+	}
 	/**
 	*登录
 	*/

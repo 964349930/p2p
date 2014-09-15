@@ -19,8 +19,9 @@ class TplAction extends HomeAction
 	*/
 	public function product()
 	{
-		
 		$id = $_GET['id'];
+		$info = D('Product') ->where("id=".$id)-> find();
+		$this ->assign('info',$info);
 		$this->assign('title', "产品详情");
 		$this->display();
 	}
@@ -28,8 +29,10 @@ class TplAction extends HomeAction
 	{
 		$this->display();
 	}
-	public function trust()
+	public function news()
 	{
+		$list = D('News') -> select();
+		$this ->assign('list',$list);
 		$this->display();
 	}
 }

@@ -25,21 +25,10 @@
 </div>
 <!-- 头部结束 -->
 
-<!-- 导航开始 -->
-<div class="bank_nav clearfix">
-  <ul>
-    <li><a href="#" class="border-r">预期收益</a></li>
-    <li><a href="#" class="border-r">投资期限</a></li>
-    <li><a href="#" class="border-r">投资起点</a></li>
-    <li><a href="#">发行机构</a></li>
-  </ul>
-</div>
-<!-- 导航结束 -->
-
 <!-- 列表开始 -->
 <div class="lc_list border-t mt10 clearfix">
   <div class="list_l">
-    <a href="#">
+    <a href="<?php echo U('Users/orgaccount');?>">
       <div class="photo">
         <img src="../Public/img/bank01.jpg">
       </div>
@@ -80,7 +69,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product', array('id'=>"2"));?>">
     <table width="94%">
       <tr>
         <td width="40%"><h1>合盈优选SA465号</h1></td>
@@ -101,7 +90,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product', array('id'=>"2"));?>">
     <table width="94%">
       <tr>
         <td width="40%"><h1>合盈优选SA465号</h1></td>
@@ -122,7 +111,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product', array('id'=>"2"));?>">
     <table width="94%">
       <tr>
         <td width="40%"><h1>合盈优选SA465号</h1></td>
@@ -145,7 +134,7 @@
 <!-- 产品列表结束 -->
 <div class="lc_list clearfix">
   <div class="list_l">
-    <a href="#">
+    <a href="<?php echo U('Users/orgaccount');?>">
       <div class="photo">
         <img src="../Public/img/bank02.jpg">
       </div>
@@ -165,7 +154,7 @@
 </div>
 <div class="lc_list clearfix">
   <div class="list_l">
-    <a href="#">
+    <a href="<?php echo U('Users/orgaccount');?>">
       <div class="photo">
         <img src="../Public/img/bank03.jpg">
       </div>
@@ -185,7 +174,7 @@
 </div>
 <div class="lc_list clearfix">
   <div class="list_l">
-    <a href="#">
+    <a href="<?php echo U('Usrs/orgaccount');?>">
     <div class="photo">
       <img src="../Public/img/bank04.jpg">
     </div>
@@ -225,7 +214,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

@@ -16,11 +16,11 @@
     <img src="../Public/img/jgxq.jpg">
   </div>
   <div class="content_wz">
-    <h1>基金份额换海外房产人民币出境曝新“暗道”</h1>
+    <volist name="list" id="vo">
+    <h1>{$vo.title}</h1>
     <span>2014-07-18</span>
-    <p>葡萄牙央行３日晚宣布将对近期深陷财务困境的圣灵银行实施救助，向圣灵银行注资４９亿欧元，并将该行一分为二，拆分为“不良银行”和“新银行”两部分。</p>
-    <p> 根据这一救助计划，葡央行将向圣灵银行注资４９亿欧元用于资金重组，这笔重组资金主要来自葡今年５月获得的由欧盟、欧洲央行和国际货币基金组织组成的“三驾马车”提供的国际救助款中剩余的６４亿欧元。</p>
-    <p>此外，葡央行在审查圣灵银行目前资本情况后决定将圣灵银行进行拆分，将圣灵银行安哥拉分公司等存在问题的资产划分为“不良银行”，并吊销其银行营业执照，其余部分将重新组成新的银行机构，称为“新银行”。“新银行”的总裁将由目前圣灵银行总裁维克托·本托担任，继续从事目前圣灵银行的各项业务。</p>
+    <p>{$vo.content}</p>
+  </volist>
   </div>
 </div>
 <div class="new_talk border-t border-b clearfix mt20">
@@ -28,7 +28,7 @@
     <tr>
       <td class="border-r"><a href="#"><img src="../Public/img/zan01.png">赞</a></td>
       <td class="border-r"><a href="#"><img src="../Public/img/talk01.png">评论</a></td>
-      <td class="border-r"><a href="#"><img src="../Public/img/sc01.png">收藏</a></td>
+      <td class="border-r"><a href="{:U('Users/subcollect')}"><img src="../Public/img/sc01.png">收藏</a></td>
       <td><a href="#"><img src="../Public/img/share01.png">分享</a></td>
     </tr>
   </table>

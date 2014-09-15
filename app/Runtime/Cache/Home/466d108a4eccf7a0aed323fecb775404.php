@@ -19,7 +19,7 @@
 
 <!-- 头部开始 -->
 <div class="header">
-  <div class="box1"><a href="#"><img src="../Public/img/jt_02.png"></a></div>
+  <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
   <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
 </div>
@@ -39,16 +39,16 @@
 <!-- 个人中心头部结束 -->
 <div class="user_list mt10 border-t border-b">
   <div class="container border-b">
-    <a href="#"><span>机构账户</span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Users/orgaccount');?>"><span>机构账户</span><img src="../Public/img/jt_r.png"></a>
   </div>
   <div class="container border-b">
-    <a href="#"><span>机构管理</span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Users/account');?>"><span>机构管理</span><img src="../Public/img/jt_r.png"></a>
   </div>
   <div class="container border-b">
-    <a href="#"><span>订单管理</span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Article/order');?>"><span>订单管理</span><img src="../Public/img/jt_r.png"></a>
   </div>
   <div class="container border-b">
-    <a href="#"><span>客户经理管理</span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Users/mancenter');?>"><span>客户经理管理</span><img src="../Public/img/jt_r.png"></a>
   </div>
 </div>
 <button class="btn" type="button">退出登录</button>

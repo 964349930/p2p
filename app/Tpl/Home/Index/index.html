@@ -72,33 +72,11 @@
   <img src="../Public/img/zs.jpg">
   <h1>产品推荐</h1>
 </div>
-<div>
-  <ul>
-    <li><a href
-      
-    </li>
-  </ul>
-</div>
-  <div class="product_tj fl clearfix">
-  <ul>
-    <li><a href="{:U('Tpl/product')}">
-      <div class="photo">
-        <img src="../Public/img/img01.jpg">
-      </div>
-      <div class="wb">
-        <h3>{$vo.name}</h3>
-        <p>{$vo.desc}</p>
-      </div>
-      <div class="jt_r">
-        <img src="../Public/img/jt_r.png">
-      </div>
-    </a></li>
-  </ul>
-</div>
 
-  <div class="product_tj fl clearfix">
+<div class="product_tj fl clearfix">
   <ul>
-    <li><a href="{:U('Tpl/product')}">
+    <volist name="list" id="vo">
+    <li><a href="{:U('Tpl/product',array('id'=>$vo['id']))}">
       <div class="photo">
         <img src="../Public/img/img01.jpg">
       </div>
@@ -110,6 +88,7 @@
         <img src="../Public/img/jt_r.png">
       </div>
     </a></li>
+  </volist>
   </ul>
 </div>
 
