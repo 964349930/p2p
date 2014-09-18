@@ -21,40 +21,29 @@
 <div class="header">
   <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
+  <div class="box4"><a href="#"><span>登录</span></a></div>
 </div>
 <!-- 头部结束 -->
 
 
 <!-- 内容开始 -->
-<form method="post" action="<?php echo U('Public/doLogin');?>">
 <div class="zc">
   <div class="zc01 border-b">
-    <input type="text" id="tel" name="name" class="txt">
+    <input type="text" value="请输入手机号">
     <span>手机号</span>
     
   </div>
-  <div class="zc01">
-    <input type="password" id="password" name="password" class="txt">
+  <div class="zc01 border-b">
+    <input type="text" value="请输入密码">
     <span>密码</span>
   </div>
+  <div class="zc01">
+    <input type="text" value="请再次输入密码">
+    <span>确认密码</span>
+  </div>
 </div>
-<div class="zc02 mb10">
-  <input type="checkbox" name="test"><span>记住密码</span>
-  <a href="#">忘记密码？</a>
-</div>
-<input type="submit" class="dl_btn" value="登录">
-<li>
-<a href="<?php echo U('Public/userreg');?>">
-<button type="button" class="kh_btn">用户注册</button>
-</a>
-</li>
-<li>
-<a href="<?php echo U('Public/organicreg');?>">
-<button type="button" class="kh_btn">机构注册</button>
-</a>
-</li>
-</form>
+<button type="button" class="zc_btn">注册</button>
+
 <!-- 内容结束 -->
 
 </div>

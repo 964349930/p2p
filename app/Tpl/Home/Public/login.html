@@ -11,6 +11,7 @@
 
 
 <!-- 内容开始 -->
+<form method="post" action="{:U('Public/doLogin')}">
 <div class="zc">
   <div class="zc01 border-b">
     <input type="text" id="tel" name="name" class="txt">
@@ -26,9 +27,18 @@
   <input type="checkbox" name="test"><span>记住密码</span>
   <a href="#">忘记密码？</a>
 </div>
-<button type="button" class="dl_btn">登录</button>
-<button type="button" class="yh_btn">用户注册</button>
+<input type="submit" class="dl_btn" value="登录">
+<li>
+<a href="{:U('Public/userreg')}">
+<button type="button" class="kh_btn">用户注册</button>
+</a>
+</li>
+<li>
+<a href="{:U('Public/organicreg')}">
 <button type="button" class="kh_btn">机构注册</button>
+</a>
+</li>
+</form>
 <!-- 内容结束 -->
 
 </div>

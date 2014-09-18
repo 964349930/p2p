@@ -77,7 +77,7 @@
         <td><font color="#d34825">限</font>12个月</td>
       </tr>
       <tr>
-        <td width="30%"><font color="#d34825">9.00%</font></td>
+        <td width="30%"><font color="#d34825"><?php echo ($info["income"]); ?></font></td>
         <td><font style="font-weight:800">1.8500</font> 元</td>
         <td><font style="font-weight:800">50</font> 元起购</td>
       </tr>
