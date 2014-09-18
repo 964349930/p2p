@@ -47,7 +47,7 @@
   <h1>活动中心</h1>
 </div>
 <div class="active_list mt10 clearfix">
-  <a href="#">
+  <a href="">
     “八月‘忠’情月，喜新更念旧”感恩回馈月活动
    </a>
    <a href="#">
@@ -64,7 +64,7 @@
 </div>
 <!-- 产品列表开始 -->
 <div class="product_list border-t mt10 clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product');?>">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -85,7 +85,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product');?>">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -106,7 +106,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product');?>">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -127,7 +127,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product');?>">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -153,13 +153,13 @@
   <h1>客户经理</h1>
 </div>
 <div class="active_list mt10 clearfix">
-  <a href="#">
+  <a href="<?php echo U('Users/manaccount');?>">
     张经理
    </a>
-   <a href="#">
+   <a href="<?php echo U('Users/manaccount');?>">
     王经理
    </a>
-   <a href="#" class="border-b">
+   <a href="<?php echo U('Users/manaccount');?>s" class="border-b">
     刘经理
    </a>
 </div>
@@ -179,7 +179,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

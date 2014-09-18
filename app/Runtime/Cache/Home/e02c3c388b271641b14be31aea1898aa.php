@@ -44,7 +44,7 @@
 </div>
 <button type="button" class="dl_btn">登录</button>
 <button type="button" class="yh_btn">用户注册</button>
-<button type="button" class="kh_btn">客户经理注册</button>
+<button type="button" class="kh_btn">机构注册</button>
 <!-- 内容结束 -->
 
 </div>

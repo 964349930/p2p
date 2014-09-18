@@ -9,6 +9,8 @@ class UsersAction extends HomeAction
 	public function account()
 	{
 		$id = $_GET['id'];
+		$info = D('User') -> where("id".$id) -> find();
+		$this -> assign('info',$info);
 		$this->assign('title', "我的帐户");
 		$this->display();
 	}
@@ -27,6 +29,8 @@ class UsersAction extends HomeAction
 	public function manaccount()
 	{
 		$id = $_GET['id'];
+		$info = D('Manager') ->where("id=".$id)-> find();
+		$this ->assign('info',$info);
 		$this->assign('title', "客户经理账户");
 		$this->display();
 	}

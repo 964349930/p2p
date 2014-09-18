@@ -28,8 +28,8 @@
 <!-- 导航开始 -->
 <div class="form_nav clearfix">
   <ul>
-    <li><a href="#" class="border-r">话题收藏</a></li>
-    <li><a href="#">话题发表</a></li>
+    <li><a href="Users/subcollect" class="border-r">话题收藏</a></li>
+    <li><a href="Community/publish">话题发表</a></li>
   </ul>
 </div>
 <!-- 导航结束 -->
@@ -39,7 +39,7 @@
   <ul>
     <li class="clearfix">
       <div class="new_list">
-        <a href="#">基金份额换海外房产人民币出境曝新“暗道”</a>
+        <a href="">基金份额换海外房产人民币出境曝新“暗道”</a>
       </div>
     </li>
     <li class="clearfix">
@@ -86,7 +86,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

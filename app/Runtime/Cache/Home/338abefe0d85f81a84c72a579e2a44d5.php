@@ -21,7 +21,7 @@
 <div class="header">
   <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/top.png"></a></div>
+  <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
 </div>
 <!-- 头部结束 -->
 
@@ -39,18 +39,13 @@
 <!-- 个人中心头部结束 -->
 <div class="user_list mt10 border-t border-b">
   <div class="container border-b">
-    <a href="#"><span>姓名</span><span><?php echo ($info["name"]); ?></span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="#"><span>联系方式</span><span><?php echo ($info["tel"]); ?></span><img src="../Public/img/jt_r.png"></a>
-  </div>
-  <div class="container border-b">
-    <a href="#"><span>邮箱地址</span><span><?php echo ($info["email"]); ?></span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Public/login');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
   </div>
   <div class="container">
-    <a href="#"><span>登录时间</span><span class="time">2014-08-03 9:50 济南</span></a>
+    <a href="#"><span>订单管理</span><img src="../Public/img/jt_r.png"></a>
   </div>
 </div>
+<button class="btn" type="button">退出登录</button>
 
 <!-- 内容结束 -->
 

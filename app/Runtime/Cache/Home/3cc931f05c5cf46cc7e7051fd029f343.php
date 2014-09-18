@@ -28,8 +28,8 @@
 <!-- 导航开始 -->
 <div class="form_nav clearfix">
   <ul>
-    <li><a href="#" class="border-r">新订单</a></li>
-    <li><a href="#">完成订单</a></li>
+    <li><a href="<?php echo U('Article/order');?>" class="border-r">新订单</a></li>
+    <li><a href="<?php echo U('Article/');?>">完成订单</a></li>
   </ul>
 </div>
 <!-- 导航结束 -->
@@ -57,7 +57,7 @@
 </div>
 <!-- 产品列表开始 -->
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="<?php echo U('Tpl/product');?>">
     <table width="94%">
       <tr>
         <td width="40%"><h1>合盈优选SA465号</h1></td>
@@ -207,7 +207,7 @@
         <dd>圈子</dd>
       </dl>
     </a></li>
-    <li><a href="<?php echo U('Users/index');?>">
+    <li><a href="<?php echo U('Public/login');?>">
       <dl>
         <dt><img src="../Public/img/bottom_03.png"></dt>
         <dd>我的元宝</dd>

@@ -31,7 +31,7 @@
   <h1>活动中心</h1>
 </div>
 <div class="active_list mt10 clearfix">
-  <a href="#">
+  <a href="">
     “八月‘忠’情月，喜新更念旧”感恩回馈月活动
    </a>
    <a href="#">
@@ -48,7 +48,28 @@
 </div>
 <!-- 产品列表开始 -->
 <div class="product_list border-t mt10 clearfix">
-  <a href="#">
+  <a href="{:U('Tpl/product')}">
+    <table width="94%">
+      <tr>
+        <td width="30%"><h1>合盈优选SA465号</h1></td>
+        <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
+        <td><img src="../Public/img/tag01.png"></td>
+      </tr>
+      <tr>
+        <td width="30%">预期年化</td>
+        <td>万份收益</td>
+        <td><font color="#d34825">限</font>12个月</td>
+      </tr>
+      <tr>
+        <td width="30%"><font color="#d34825">{$info.income}</font></td>
+        <td><font style="font-weight:800">1.8500</font> 元</td>
+        <td><font style="font-weight:800">50</font> 元起购</td>
+      </tr>
+    </table>  
+  </a>
+</div>
+<div class="product_list clearfix">
+  <a href="{:U('Tpl/product')}">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -69,28 +90,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
-    <table width="94%">
-      <tr>
-        <td width="30%"><h1>合盈优选SA465号</h1></td>
-        <td><span>已申购 <font style="font-weight:800">10235 人</font></span></td>
-        <td><img src="../Public/img/tag01.png"></td>
-      </tr>
-      <tr>
-        <td width="30%">预期年化</td>
-        <td>万份收益</td>
-        <td><font color="#d34825">限</font>12个月</td>
-      </tr>
-      <tr>
-        <td width="30%"><font color="#d34825">9.00%</font></td>
-        <td><font style="font-weight:800">1.8500</font> 元</td>
-        <td><font style="font-weight:800">50</font> 元起购</td>
-      </tr>
-    </table>  
-  </a>
-</div>
-<div class="product_list clearfix">
-  <a href="#">
+  <a href="{:U('Tpl/product')}">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -111,7 +111,7 @@
   </a>
 </div>
 <div class="product_list clearfix">
-  <a href="#">
+  <a href="{:U('Tpl/product')}">
     <table width="94%">
       <tr>
         <td width="30%"><h1>合盈优选SA465号</h1></td>
@@ -137,13 +137,13 @@
   <h1>客户经理</h1>
 </div>
 <div class="active_list mt10 clearfix">
-  <a href="#">
+  <a href="{:U('Users/manaccount')}">
     张经理
    </a>
-   <a href="#">
+   <a href="{:U('Users/manaccount')}">
     王经理
    </a>
-   <a href="#" class="border-b">
+   <a href="{:U('Users/manaccount')}s" class="border-b">
     刘经理
    </a>
 </div>

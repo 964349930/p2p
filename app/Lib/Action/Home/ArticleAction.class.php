@@ -45,13 +45,13 @@ class ArticleAction extends HomeAction
 		$this->display();
 	}
 	/**
-	*订单管理（新订单）
+	*客户经理订单
 	*/
 
 	public function order()
 	{
 		$id = $_GET['id'];
-		$this->assign('title', "订单管理（新订单）");
+		$this->assign('title', "客户经理订单");
 		$this->display();
 	}
 	/**
@@ -72,15 +72,6 @@ class ArticleAction extends HomeAction
 	{
 		$id = $_GET['id'];
 		$this->assign('title', "订单管理（处理中订单）");
-		$this->display();
-	}
-	/**
-	*
-	*/
-	public function management()
-	{
-		$id = $_GET['id'];
-		$this->assign('title', "");
 		$this->display();
 	}
 	/**

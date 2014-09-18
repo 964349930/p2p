@@ -21,7 +21,7 @@
 <div class="header">
   <div class="box1"><a href="javascript:window.history.go(-1);"><img src="../Public/img/jt_02.png"></a></div>
   <div class="box2"><h1><?php echo ($title); ?></h1></div>
-  <div class="box3"><a href="#"><img src="../Public/img/home.png"></a></div>
+  <div class="box3"><a href="<?php echo U('Index/index');?>"><img src="../Public/img/home.png"></a></div>
 </div>
 <!-- 头部结束 -->
 
@@ -39,7 +39,7 @@
 <!-- 个人中心头部结束 -->
 <div class="user_list mt10 border-t border-b">
   <div class="container border-b">
-    <a href="<?php echo U('Public/login');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
+    <a href="<?php echo U('Users/account');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
   </div>
   <div class="container border-b">
     <a href="<?php echo U('Article/myorder');?>"><span>我的订单</span><img src="../Public/img/jt_r.png"></a>

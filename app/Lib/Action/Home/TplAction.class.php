@@ -4,7 +4,7 @@
 class TplAction extends HomeAction
 {
 	/**
-	*
+	*基金，托管
 	*/
 	public function productList()
 	{
