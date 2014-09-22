@@ -32,7 +32,7 @@ class PublicAction extends HomeAction
 	{
 		$id = $_GET['id'];
 		$this->assign('title', "登录");
-		$loginIofo = D('User') -> where("id"<='0')->find;
+		$loginIofo = D('User') -> where("id"<'0')->find;
 		if (empty($loginIofo)) {
 		   $this->display();
 		}else{
@@ -49,7 +49,7 @@ class PublicAction extends HomeAction
 			$this->error("两次密码不正确");
 		}
 		$tel = $_POST['tel'];
-		$is = D('User')->where("tel='".$tel."'")->find();
+		$is = D('organic')->where("tel='".$tel."'")->find();
 		//if(!empty($is)){
 		//	$this->error("手机号不正确");
 		//}
@@ -58,7 +58,7 @@ class PublicAction extends HomeAction
         	'tel' => $tel,
         	'password' => md5($password)
         	);
-        $result = D('User')->add($data);
+        $result = D('organic')->add($data);
        
         $this->setSession($userInfo['id']);
         $this->success('注册成功',U('Public/login'));
@@ -105,5 +105,20 @@ class PublicAction extends HomeAction
 		$id = $_GET['id'];
 		$this->assign('title', "用户注册");
 		$this->display();
+	}
+	/**
+	*登出
+	*/
+	public function logout()
+	{
+		$url = U('Home/Public/login');
+		$update = array(
+			'last_time' => $_SESSION['current_time'],
+			'last_ip' => $_SESSION['current_ip'],
+			);
+		D('User')->where('id='.$_SESSION['uid'])->save($update);
+		unset($_SESSION);
+		session_destroy();
+		$this->success('登出成功',$url);
 	}
 }

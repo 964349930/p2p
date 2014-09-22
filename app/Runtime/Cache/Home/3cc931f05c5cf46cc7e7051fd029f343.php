@@ -28,8 +28,8 @@
 <!-- 导航开始 -->
 <div class="form_nav clearfix">
   <ul>
-    <li><a href="<?php echo U('Article/order');?>" class="border-r">新订单</a></li>
-    <li><a href="<?php echo U('Article/');?>">完成订单</a></li>
+    <li><a href="<?php echo U('Article/myorder');?>" class="border-r">新订单</a></li>
+    <li><a href="<?php echo U('Article/complete');?>">完成订单</a></li>
   </ul>
 </div>
 <!-- 导航结束 -->

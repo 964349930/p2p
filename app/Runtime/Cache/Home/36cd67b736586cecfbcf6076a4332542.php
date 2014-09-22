@@ -37,6 +37,7 @@
   </div>
 </div>
 <!-- 个人中心头部结束 -->
+<form method="post" action="<?php echo U('Public/logout');?>">
 <div class="user_list mt10 border-t border-b">
   <div class="container border-b">
     <a href="<?php echo U('Users/account');?>"><span>我的账户</span><img src="../Public/img/jt_r.png"></a>
@@ -51,7 +52,8 @@
     <a href="<?php echo U('Users/subcollect');?>"><span>我的话题</span><img src="../Public/img/jt_r.png"></a>
   </div>
 </div>
-<button class="btn" type="button">退出登录</button>
+<input type="submit" class="dl_btn" value="退出">
+</form>
 
 <!-- 内容结束 -->
 
