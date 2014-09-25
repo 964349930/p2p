@@ -32,6 +32,7 @@ class TplAction extends HomeAction
 	public function news()
 	{
 		$list = D('News') -> select();
+		$info = D('News') ->where("id=".$id)-> find();
 		$this ->assign('list',$list);
 		$this->display();
 	}

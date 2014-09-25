@@ -8,8 +8,7 @@ class UsersAction extends HomeAction
 	*/
 	public function account()
 	{
-		$id = $_GET['id'];
-		$info = D('User') -> where("id".$id) -> find();
+		$info = D('User') -> where("id=".$_SESSION['user_id']) -> find();
 		$this -> assign('info',$info);
 		$this->assign('title', "我的帐户");
 		$this->display();

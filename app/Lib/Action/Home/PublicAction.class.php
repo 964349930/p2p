@@ -3,14 +3,7 @@
 
 class PublicAction extends HomeAction
 {
-	 /**
-     * 首次登录后的SESSION处理工作
-     */
-    private function setSession($id){
-        $_SESSION['uid'] = $id;
-        $_SESSION['current_ip'] = get_client_ip();
-        $_SESSION['current_time'] = time();
-    }
+
 	/**
 	*处理 前台登陆
 	*/
@@ -22,7 +15,7 @@ class PublicAction extends HomeAction
         if(empty($userInfo)){
             $this->error('用户名或密码错误');
         }
-        $this->setSession($userInfo['id']);
+        $_SESSION['user_id'] = $userInfo['id'];
         $this->success('登陆成功',U('Users/index'));
 	}
 	/**

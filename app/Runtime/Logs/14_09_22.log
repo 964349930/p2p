@@ -1,0 +1,1251 @@
+[ 2014-09-22T09:24:06+08:00 ] 127.0.0.1 /p2p/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007813s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.013672s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.001953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.041992s ]
+INFO: [ view_template ] --END-- [ RunTime:0.041992s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.130860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007812s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005860s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028321s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:25:44+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.013672s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:25:54+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=userreg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011719s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 105 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:25:54+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=userreg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 105 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.009766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008789s ]
+
+[ 2014-09-22T09:26:09+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=doUserreg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+NOTIC: [8] Undefined index: password1 D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 81 行.
+NOTIC: [8] Undefined index: password2 D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 82 行.
+NOTIC: [8] Undefined index: tel D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.014648s ]
+SQL: SELECT * FROM `p_user` WHERE ( tel='' ) LIMIT 1   [ RunTime:0.149414s ]
+SQL: INSERT INTO `p_user` (`tel`,`password`) VALUES (null,'4297f44b13955235245b2497399d7a93') [ RunTime:0.000976s ]
+ERR: Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `p_user` (`tel`,`password`) VALUES (null,'4297f44b13955235245b2497399d7a93')
+NOTIC: [8] Undefined variable: userInfo D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 97 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005860s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005860s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058594s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:26:11+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.014649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005859s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.011719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028321s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:31:22+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.031250s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='张三' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:31:26+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 87 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:31:31+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:31:32+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:32:27+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 87 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:32:34+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:32:34+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:33:04+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=logout
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: set D:\SoftWare\wamp\www\p2p\core\ThinkPHP\Lib\Core\Db.class.php 第 283 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\SoftWare\wamp\www\p2p\core\ThinkPHP\Lib\Core\Db.class.php 第 283 行.
+SQL: UPDATE `p_user` SET  WHERE ( id=2 ) [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `p_user` SET  WHERE ( id=2 )
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:33:08+08:00 ] 127.0.0.1 /p2p/index.php?g=Home&m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:33:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='张三' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:33:37+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 87 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:33:43+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.015625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:33:43+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:35:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:35:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:35:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:35:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:35:52+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007813s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.061524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2014-09-22T09:36:12+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007813s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2014-09-22T09:36:17+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2014-09-22T09:36:18+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.055664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2014-09-22T09:36:18+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.051758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052735s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003906s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.010742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011719s ]
+
+[ 2014-09-22T09:36:19+08:00 ] 127.0.0.1 /p2p/index.php?m=Community&a=index#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\CommunityAction.class.php 第 9 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011718s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.056641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-22T09:36:23+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.014649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004882s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002929s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2014-09-22T09:39:26+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='张三' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:39:30+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 86 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:39:35+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:39:36+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:39:54+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:17+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:17+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.015625s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:25+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:25+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:25+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:32+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:32+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2014-09-22T09:40:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:40:33+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=account#
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: user_id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 11 行.
+SQL: SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_user` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:41:14+08:00 ] 127.0.0.1 /p2p/index.php?m=Article&a=myorder
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\ArticleAction.class.php 第 43 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:41:15+08:00 ] 127.0.0.1 /p2p/index.php?m=Article&a=myorder
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\ArticleAction.class.php 第 43 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:42:12+08:00 ] 127.0.0.1 /p2p/index.php?m=Tpl&a=product
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\TplAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_product` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p_product` WHERE ( id= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:48:24+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-09-22T09:51:10+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007812s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.012695s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007812s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050781s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-22T09:51:21+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `p_user` WHERE ( name='张三' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.001953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004882s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-22T09:51:24+08:00 ] 127.0.0.1 /p2p/index.php?m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\UsersAction.class.php 第 86 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007813s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.055664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005859s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-22T09:51:30+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.014649s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.001953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005859s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2014-09-22T09:51:31+08:00 ] 127.0.0.1 /p2p/index.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `p_product` [ RunTime:0.012695s ]
+SQL: SELECT * FROM `p_product`  [ RunTime:0.000977s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.070312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070312s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003907s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011719s ]
+
+[ 2014-09-22T09:51:35+08:00 ] 127.0.0.1 /p2p/index.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+NOTIC: [8] Undefined index: id D:\SoftWare\wamp\www\p2p\app\Lib\Action\Home\PublicAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.012695s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008790s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004883s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005859s ]
+

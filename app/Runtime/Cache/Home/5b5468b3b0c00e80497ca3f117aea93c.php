@@ -27,22 +27,24 @@
 
 
 <!-- 内容开始 -->
+<form method="post" action="<?php echo U('Public/doUserreg');?>">
 <div class="zc">
   <div class="zc01 border-b">
-    <input type="text" value="请输入手机号">
+    <input type="text" id="tel" name="name" class="txt">
     <span>手机号</span>
     
   </div>
   <div class="zc01 border-b">
-    <input type="text" value="请输入密码">
+    <input type="password" id="password" name="password" class="txt">
     <span>密码</span>
   </div>
   <div class="zc01">
-    <input type="text" value="请再次输入密码">
+    <input type="password" id="password" name="password" class="txt">
     <span>确认密码</span>
   </div>
 </div>
-<button type="button" class="zc_btn">注册</button>
+<input type="submit" class="zc_btn" value="注册">
+</form>
 
 <!-- 内容结束 -->
 
